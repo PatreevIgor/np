@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @candy.title %>
+</p>
+
+<p>
+              <div id="img_for_show">
+                <%= image_tag @candy.image, :width => 350 %>
+              </div>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @candy.manufacturer %>
+</p>
+
+<%= link_to 'Edit', edit_candy_path(@candy) %> |
+<%= link_to 'Back', candies_path %>

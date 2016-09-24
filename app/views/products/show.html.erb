@@ -1,0 +1,113 @@
+<div class="content-main">
+<div class="line"></div>
+      <table cellspacing="0" cellpadding="0" class="ctable">
+        <tbody><tr>
+          <td class="left">
+            <div class="mtop">
+
+            </div>
+            <div class="list-block">
+            <div class="tit"><a href="http://morozoff.by/">Новогодние подарки</a></div>
+              <ul class="list">
+                <li><a href="/roshen">Подарки Рошен</a></li>
+                <li><a href="/prestig">Подарки Престиж</a></li>
+                <li><a href="/vip">Подарки VIP</a></li>
+                <li><a href="/elit">Новогодняя упаковка</a></li>
+
+              </ul>
+            </div>
+            <div class="mbot"></div>
+            <!--
+            <br/>
+            <div class="mtop"></div>
+            <div class="list-block">
+            <div class="tit"><a href="novogodnyaya-upakovka.php">Новогодняя упаковка</a></div>
+              <ul class="list">
+                <li><a href="upakovka-iz-kartona.php">Упаковка из картона</a></li>
+                <li><a href="upakovka-iz-mikrogofrokartona.php">Упаковка из гофрокартона</a></li>
+                <li><a href="upakovka-iz-jesti.php">Упаковка из жести</a></li>
+                <li><a href="upakovka-iz-dereva.php">Упаковка из дерева</a></li>
+                <li><a href="upakovka-tuby.php">Картонные тубы</a></li>
+              </ul>
+            </div>
+            <div class="mbot"></div>
+            -->
+            <br>
+<!--             <div class="dostavka">
+              <a href="http://morozoff.by/dostavka.php" target="_blank" title="Доставка новогодних подарков">
+                <img src="./Саквояж - 300 гр - Morozoff_files/dostavka.jpg" alt="Доставка новогодних подарков по Беларуси">
+              </a>
+            </div>
+            <div class="catalog-l">
+              <a href="http://morozoff.by/catalog.pdf" target="_blank" title="Каталог новогодних подарков">
+                <img src="./Саквояж - 300 гр - Morozoff_files/catalog.jpg" alt="Каталог новогодних подарков">
+              </a>
+            </div> -->
+            <br>          </td>
+          <td class="right">
+            <div class="navi">
+              <a href="/all">Новогодние подарки</a> » <%= @product.title %>
+            </div>
+            <div class="line-inner"></div>
+              <div id="img_for_show">
+                <%= image_tag @product.image, :width => 350 %>
+              </div>
+
+
+              <h1><%= @product.title %></h1>
+            <div id="description_text">
+              <br><%= @product.description.html_safe %><br>
+            </div>
+              <div class="price"> <%= @product.price %> бел.руб <span style="font-size:60%; color:#000;"></span></div>
+
+
+
+
+              <div class="clear"></div>
+            </form>
+
+              <p>
+                <strong>Packings Titles:</strong>
+                <% @product.packings.each do |c| %>
+
+                 <%= c.title %>
+                 <%= image_tag (c.image), :width => 150, :height => 150 %>
+
+                <% end %>
+                  
+             </p>
+
+
+
+              <p>
+                <strong>Candies Titles:</strong>
+                <% @product.candies.each do |c| %>
+
+                 <%= c.title %>
+                 <%= image_tag (c.image), :width => 150, :height => 150 %>
+
+                 
+                 <%= @CandiesProducts.where(product_id: @product.id, candy_id: c.id).first.count %>
+
+
+
+<!--              <%= @CandiesProducts.count %>  -->
+             <p>
+               <%= link_to 'Edit', edit_candies_product_path(@CandiesProducts.where(product_id: @product.id, candy_id: c.id).first) %>  
+<!--              <%= c.inspect %>
+ -->
+                <% end %>
+                  
+             </p>
+
+
+
+<!--               <p>
+                <strong>Candies Titles:</strong>
+                <%= @product.candies.map {|c| c.title }.join(', ') %>
+              </p> -->
+
+          </td>
+        </tr>
+      </tbody></table>
+
