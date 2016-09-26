@@ -13,7 +13,7 @@ gem 'therubyracer', :platforms => :ruby
 gem 'bigdecimal'
 # gem 'heroku'
 gem 'paperclip'
-gem 'nokogiri', '1.6.8'
+gem 'nokogiri', '1.6.6.2'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
