@@ -1,0 +1,226 @@
+I, [2016-09-26T21:24:50.506680 #6498]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-09-26 21:24:50 +0300
+F, [2016-09-26T21:25:32.626048 #6498] FATAL -- : 
+Mysql2::Error (Can't connect to MySQL server on 'mysql7.locum.ru' (111)):
+  mysql2 (0.3.19) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.19) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.0) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:436:in `new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:446:in `checkout_new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:565:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:31:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2016-09-26T21:25:32.627353 #6498]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-09-26 21:25:32 +0300
+F, [2016-09-26T21:26:14.697995 #6498] FATAL -- : 
+Mysql2::Error (Can't connect to MySQL server on 'mysql7.locum.ru' (111)):
+  mysql2 (0.3.19) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.19) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `new'
+  activerecord (4.2.0) lib/active_record/connection_adapters/mysql2_adapter.rb:18:in `mysql2_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:436:in `new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:446:in `checkout_new_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:565:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.0) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:51:in `restore_query_cache_settings'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:43:in `rescue in call'
+  activerecord (4.2.0) lib/active_record/query_cache.rb:31:in `call'
+  activerecord (4.2.0) lib/active_record/connection_adapters/abstract/connection_pool.rb:647:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2016-09-26T21:26:14.700807 #6498]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-09-26 21:26:14 +0300
+I, [2016-09-26T21:46:32.465148 #20609]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-09-26 21:46:32 +0300
+I, [2016-09-26T21:46:32.576126 #20609]  INFO -- : Processing by HomeController#index as HTML
+D, [2016-09-26T21:46:32.600684 #20609] DEBUG -- :   [1m[36mProduct Load (1.3ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 't'[0m
+I, [2016-09-26T21:46:32.601352 #20609]  INFO -- :   Rendered home/index.html.erb within layouts/application (4.6ms)
+I, [2016-09-26T21:46:39.715048 #20609]  INFO -- : Completed 200 OK in 7139ms (Views: 7122.9ms | ActiveRecord: 3.1ms)
+I, [2016-09-26T21:46:40.054737 #20609]  INFO -- : Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+F, [2016-09-26T21:46:40.059206 #20609] FATAL -- : 
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+I, [2016-09-26T21:46:40.060371 #20609]  INFO -- : Started GET "/assets/application-123fc6d131f60ca936b4607a779a55ad39105250382aa0e9a3a6dda66c792bc3.js" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.080073 #20609]  INFO -- : Started GET "/assets/style.css" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.356883 #20609]  INFO -- : Started GET "/assets/flexslider.css" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.437792 #20609]  INFO -- : Started GET "/assets/jcart.css" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.534615 #20609]  INFO -- : Started GET "/assets/LOGO2.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.575908 #20609]  INFO -- : Started GET "/assets/home.gif" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.604746 #20609]  INFO -- : Started GET "/assets/ico1.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.608905 #20609]  INFO -- : Started GET "/assets/ico4.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.625499 #20609]  INFO -- : Started GET "/assets/ico2.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.629309 #20609]  INFO -- : Started GET "/assets/ico3.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.774912 #20609]  INFO -- : Started GET "/assets/fbg.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.786277 #20609]  INFO -- : Started GET "/assets/shoko.jpg" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.788658 #20609]  INFO -- : Started GET "/assets/catbg.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:40.790904 #20609]  INFO -- : Started GET "/assets/menu.png" for 127.0.0.1 at 2016-09-26 21:46:40 +0300
+I, [2016-09-26T21:46:44.663058 #20609]  INFO -- : Started GET "/np" for 127.0.0.1 at 2016-09-26 21:46:44 +0300
+I, [2016-09-26T21:46:44.664157 #20609]  INFO -- : Processing by HomeController#np as HTML
+D, [2016-09-26T21:46:44.731638 #20609] DEBUG -- :   [1m[35mPacking Load (0.5ms)[0m  SELECT `packings`.* FROM `packings`
+I, [2016-09-26T21:46:44.733395 #20609]  INFO -- :   Rendered home/np.html.erb within layouts/application (3.3ms)
+I, [2016-09-26T21:46:44.735401 #20609]  INFO -- : Completed 200 OK in 71ms (Views: 68.5ms | ActiveRecord: 1.5ms)
+I, [2016-09-26T21:46:46.448120 #20609]  INFO -- : Started GET "/roshen" for 127.0.0.1 at 2016-09-26 21:46:46 +0300
+I, [2016-09-26T21:46:46.449593 #20609]  INFO -- : Processing by HomeController#roshen as HTML
+D, [2016-09-26T21:46:46.454203 #20609] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 'r'[0m
+I, [2016-09-26T21:46:46.454742 #20609]  INFO -- :   Rendered home/roshen.html.erb within layouts/application (2.6ms)
+I, [2016-09-26T21:46:46.458731 #20609]  INFO -- : Completed 200 OK in 9ms (Views: 6.8ms | ActiveRecord: 0.9ms)
+I, [2016-09-26T21:46:47.595162 #20609]  INFO -- : Started GET "/prestig" for 127.0.0.1 at 2016-09-26 21:46:47 +0300
+I, [2016-09-26T21:46:47.598759 #20609]  INFO -- : Processing by HomeController#prestig as HTML
+D, [2016-09-26T21:46:47.613870 #20609] DEBUG -- :   [1m[35mProduct Load (6.6ms)[0m  SELECT `products`.* FROM `products` WHERE `products`.`types` = 'p'
+I, [2016-09-26T21:46:47.614249 #20609]  INFO -- :   Rendered home/prestig.html.erb within layouts/application (8.1ms)
+I, [2016-09-26T21:46:47.625597 #20609]  INFO -- : Completed 200 OK in 21ms (Views: 13.8ms | ActiveRecord: 6.6ms)
+I, [2016-09-26T21:46:49.719004 #20609]  INFO -- : Started GET "/classic" for 127.0.0.1 at 2016-09-26 21:46:49 +0300
+I, [2016-09-26T21:46:49.721277 #20609]  INFO -- : Processing by HomeController#classic as HTML
+D, [2016-09-26T21:46:49.791044 #20609] DEBUG -- :   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 'c'[0m
+I, [2016-09-26T21:46:49.791294 #20609]  INFO -- :   Rendered home/classic.html.erb within layouts/application (1.5ms)
+I, [2016-09-26T21:46:49.793241 #20609]  INFO -- : Completed 200 OK in 72ms (Views: 70.0ms | ActiveRecord: 0.4ms)
+I, [2016-09-26T21:46:52.287855 #20609]  INFO -- : Started GET "/all" for 127.0.0.1 at 2016-09-26 21:46:52 +0300
+I, [2016-09-26T21:46:52.288955 #20609]  INFO -- : Processing by HomeController#all as HTML
+D, [2016-09-26T21:46:52.349892 #20609] DEBUG -- :   [1m[35mProduct Load (28.8ms)[0m  SELECT `products`.* FROM `products` WHERE `products`.`types` IN ('v', 'p', 'r', 'c')
+I, [2016-09-26T21:46:52.350294 #20609]  INFO -- :   Rendered home/all.html.erb within layouts/application (31.2ms)
+I, [2016-09-26T21:46:52.352314 #20609]  INFO -- : Completed 200 OK in 63ms (Views: 16.5ms | ActiveRecord: 29.7ms)
+I, [2016-09-26T21:46:54.887761 #20609]  INFO -- : Started GET "/roshen" for 127.0.0.1 at 2016-09-26 21:46:54 +0300
+I, [2016-09-26T21:46:54.892461 #20609]  INFO -- : Processing by HomeController#roshen as HTML
+D, [2016-09-26T21:46:54.894924 #20609] DEBUG -- :   [1m[36mProduct Load (0.8ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 'r'[0m
+I, [2016-09-26T21:46:54.895270 #20609]  INFO -- :   Rendered home/roshen.html.erb within layouts/application (1.4ms)
+I, [2016-09-26T21:46:54.911858 #20609]  INFO -- : Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.8ms)
+I, [2016-09-26T21:46:56.230122 #20609]  INFO -- : Started GET "/prestig" for 127.0.0.1 at 2016-09-26 21:46:56 +0300
+I, [2016-09-26T21:46:56.232415 #20609]  INFO -- : Processing by HomeController#prestig as HTML
+D, [2016-09-26T21:46:56.244277 #20609] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT `products`.* FROM `products` WHERE `products`.`types` = 'p'
+I, [2016-09-26T21:46:56.247400 #20609]  INFO -- :   Rendered home/prestig.html.erb within layouts/application (13.2ms)
+I, [2016-09-26T21:46:56.255777 #20609]  INFO -- : Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 1.0ms)
+I, [2016-09-26T21:46:57.060433 #20609]  INFO -- : Started GET "/vip" for 127.0.0.1 at 2016-09-26 21:46:57 +0300
+I, [2016-09-26T21:46:57.061879 #20609]  INFO -- : Processing by HomeController#vip as HTML
+D, [2016-09-26T21:46:57.069714 #20609] DEBUG -- :   [1m[36mProduct Load (1.0ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 'v'[0m
+I, [2016-09-26T21:46:57.070130 #20609]  INFO -- :   Rendered home/vip.html.erb within layouts/application (5.6ms)
+I, [2016-09-26T21:46:57.151429 #20609]  INFO -- : Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 1.0ms)
+I, [2016-09-26T21:46:57.864093 #20609]  INFO -- : Started GET "/about_the_company" for 127.0.0.1 at 2016-09-26 21:46:57 +0300
+I, [2016-09-26T21:46:57.866327 #20609]  INFO -- : Processing by HomeController#about_the_company as HTML
+I, [2016-09-26T21:46:57.869424 #20609]  INFO -- :   Rendered home/about_the_company.html.erb within layouts/application (1.3ms)
+I, [2016-09-26T21:46:57.871909 #20609]  INFO -- : Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+I, [2016-09-26T21:47:02.465241 #20609]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-09-26 21:47:02 +0300
+I, [2016-09-26T21:47:02.467625 #20609]  INFO -- : Processing by HomeController#index as HTML
+D, [2016-09-26T21:47:02.470601 #20609] DEBUG -- :   [1m[35mProduct Load (1.0ms)[0m  SELECT `products`.* FROM `products` WHERE `products`.`types` = 't'
+I, [2016-09-26T21:47:02.471604 #20609]  INFO -- :   Rendered home/index.html.erb within layouts/application (2.3ms)
+I, [2016-09-26T21:47:02.474710 #20609]  INFO -- : Completed 200 OK in 7ms (Views: 4.6ms | ActiveRecord: 1.0ms)
+I, [2016-09-26T21:47:02.702485 #20609]  INFO -- : Started GET "/" for 127.0.0.1 at 2016-09-26 21:47:02 +0300
+I, [2016-09-26T21:47:02.704039 #20609]  INFO -- : Processing by HomeController#index as HTML
+D, [2016-09-26T21:47:02.707240 #20609] DEBUG -- :   [1m[36mProduct Load (0.9ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 't'[0m
+I, [2016-09-26T21:47:02.707749 #20609]  INFO -- :   Rendered home/index.html.erb within layouts/application (1.7ms)
+I, [2016-09-26T21:47:02.713563 #20609]  INFO -- : Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.9ms)
+I, [2016-09-26T21:47:03.638676 #20609]  INFO -- : Started GET "/about_the_company" for 127.0.0.1 at 2016-09-26 21:47:03 +0300
+I, [2016-09-26T21:47:03.640277 #20609]  INFO -- : Processing by HomeController#about_the_company as HTML
+I, [2016-09-26T21:47:03.641197 #20609]  INFO -- :   Rendered home/about_the_company.html.erb within layouts/application (0.0ms)
+I, [2016-09-26T21:47:03.647443 #20609]  INFO -- : Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+I, [2016-09-26T21:47:04.936184 #20609]  INFO -- : Started GET "/shipping_and_payment" for 127.0.0.1 at 2016-09-26 21:47:04 +0300
+I, [2016-09-26T21:47:04.938096 #20609]  INFO -- : Processing by HomeController#shipping_and_payment as HTML
+I, [2016-09-26T21:47:04.943430 #20609]  INFO -- :   Rendered home/shipping_and_payment.html.erb within layouts/application (0.6ms)
+I, [2016-09-26T21:47:04.949877 #20609]  INFO -- : Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms)
+I, [2016-09-26T21:47:05.924905 #20609]  INFO -- : Started GET "/shares" for 127.0.0.1 at 2016-09-26 21:47:05 +0300
+I, [2016-09-26T21:47:05.930312 #20609]  INFO -- : Processing by HomeController#shares as HTML
+I, [2016-09-26T21:47:05.936664 #20609]  INFO -- :   Rendered home/shares.html.erb within layouts/application (0.6ms)
+I, [2016-09-26T21:47:05.940626 #20609]  INFO -- : Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+I, [2016-09-26T21:47:05.977660 #20609]  INFO -- : Started GET "/assets/img.jpg" for 127.0.0.1 at 2016-09-26 21:47:05 +0300
+I, [2016-09-26T21:47:06.436979 #20609]  INFO -- : Started GET "/contacts" for 127.0.0.1 at 2016-09-26 21:47:06 +0300
+I, [2016-09-26T21:47:06.438080 #20609]  INFO -- : Processing by HomeController#contacts as HTML
+I, [2016-09-26T21:47:06.445103 #20609]  INFO -- :   Rendered home/contacts.html.erb within layouts/application (0.5ms)
+I, [2016-09-26T21:47:06.450918 #20609]  INFO -- : Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
