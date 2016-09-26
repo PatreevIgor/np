@@ -33512,3 +33512,693 @@ Processing by HomeController#index as HTML
   [1m[36mProduct Load (0.4ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 't'[0m
   Rendered home/index.html.erb within layouts/application (18.8ms)
 Completed 200 OK in 306ms (Views: 304.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-26 20:59:24 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (59.9ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.0) lib/active_record/migration.rb:393:in `check_pending!'
+  activerecord (4.2.0) lib/active_record/migration.rb:374:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `call'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:88:in `_run_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:734:in `_run_call_callbacks'
+  activesupport (4.2.0) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.0) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.0ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (1.0ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (20.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (46.4ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to CreatePackings (20160918095919)
+  [1m[35m (316.3ms)[0m  CREATE TABLE `packings` (`id` int(11) auto_increment PRIMARY KEY, `image` varchar(255), `title` varchar(255), `description` text, `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.7ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160918095919')
+  [1m[36m (7.1ms)[0m  [1mCOMMIT[0m
+Migrating to ProductsPackings (20160918100041)
+  [1m[35m (34.4ms)[0m  CREATE TABLE `packings_products` (`product_id` int(11), `packing_id` int(11)) ENGINE=InnoDB
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160918100041')
+  [1m[36m (1.4ms)[0m  [1mCOMMIT[0m
+Migrating to AddAttachmentImageToPackings (20160922083547)
+  [1m[35m (140.1ms)[0m  ALTER TABLE `packings` ADD `image_file_name` varchar(255)
+  [1m[36m (80.3ms)[0m  [1mALTER TABLE `packings` ADD `image_content_type` varchar(255)[0m
+  [1m[35m (62.7ms)[0m  ALTER TABLE `packings` ADD `image_file_size` int(11)
+  [1m[36m (139.2ms)[0m  [1mALTER TABLE `packings` ADD `image_updated_at` datetime[0m
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20160922083547')[0m
+  [1m[35m (1.9ms)[0m  COMMIT
+Migrating to AddAttachmentImageToCandies (20160922085039)
+  [1m[36m (139.7ms)[0m  [1mALTER TABLE `candies` ADD `image_file_name` varchar(255)[0m
+  [1m[35m (31.6ms)[0m  ALTER TABLE `candies` ADD `image_content_type` varchar(255)
+  [1m[36m (80.4ms)[0m  [1mALTER TABLE `candies` ADD `image_file_size` int(11)[0m
+  [1m[35m (71.0ms)[0m  ALTER TABLE `candies` ADD `image_updated_at` datetime
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160922085039')
+  [1m[36m (1.7ms)[0m  [1mCOMMIT[0m
+Migrating to AddTableCandysProducts (20160922085204)
+  [1m[35m (21.1ms)[0m  CREATE TABLE `candies_products` (`id` int(11) auto_increment PRIMARY KEY, `product_id` int(11), `candy_id` int(11)) ENGINE=InnoDB
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160922085204')
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Migrating to AddColumnCountCandyToTableAssotiation (20160923075833)
+  [1m[35m (515.1ms)[0m  ALTER TABLE `candies_products` ADD `count` int(11) DEFAULT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (7.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160923075833')
+  [1m[36m (18.8ms)[0m  [1mCOMMIT[0m
+Migrating to AddColumnPriceOnThePackingTable (20160926141312)
+  [1m[35m (76.4ms)[0m  ALTER TABLE `packings` ADD `price` int(11)
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.1ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20160926141312')
+  [1m[36m (2.7ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT `schema_migrations`.* FROM `schema_migrations`
+  [1m[36m (1.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'db_for_develop'
+  AND fk.table_name = 'candies'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `candies`
+  [1m[36m (0.5ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'db_for_develop'
+  AND fk.table_name = 'candies_products'
+[0m
+  [1m[35m (0.2ms)[0m  SHOW CREATE TABLE `candies_products`
+  [1m[36m (0.4ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'db_for_develop'
+  AND fk.table_name = 'packings'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `packings`
+  [1m[36m (0.6ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'db_for_develop'
+  AND fk.table_name = 'packings_products'
+[0m
+  [1m[35m (0.3ms)[0m  SHOW CREATE TABLE `packings_products`
+  [1m[36m (0.6ms)[0m  [1mSELECT fk.referenced_table_name as 'to_table'
+      ,fk.referenced_column_name as 'primary_key'
+      ,fk.column_name as 'column'
+      ,fk.constraint_name as 'name'
+FROM information_schema.key_column_usage fk
+WHERE fk.referenced_column_name is not null
+  AND fk.table_schema = 'db_for_develop'
+  AND fk.table_name = 'products'
+[0m
+  [1m[35m (0.4ms)[0m  SHOW CREATE TABLE `products`
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-26 21:00:05 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by HomeController#index as HTML
+  [1m[35mProduct Load (4.9ms)[0m  SELECT `products`.* FROM `products` WHERE `products`.`types` = 't'
+  Rendered home/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 635ms (Views: 556.0ms | ActiveRecord: 19.5ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-09-26 21:00:06 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (10.9ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (32.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.8ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (202.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.2ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (1.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.7ms)
+
+
+Started GET "/assets/candies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/candies_products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/flexslider.css" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/packings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/jcart.css" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/LOGO2.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/home.gif" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/ico1.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/ico3.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/ico4.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/ico2.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/shoko.jpg" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/menu.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/catbg.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/assets/fbg.png" for 127.0.0.1 at 2016-09-26 21:00:07 +0300
+
+
+Started GET "/products" for 127.0.0.1 at 2016-09-26 21:00:21 +0300
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (3.3ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+  [1m[35mPacking Load (46.4ms)[0m  SELECT `packings`.* FROM `packings` INNER JOIN `packings_products` ON `packings`.`id` = `packings_products`.`packing_id` WHERE `packings_products`.`product_id` = 2
+  [1m[36mCandy Load (0.8ms)[0m  [1mSELECT `candies`.* FROM `candies` INNER JOIN `candies_products` ON `candies`.`id` = `candies_products`.`candy_id` WHERE `candies_products`.`product_id` = 2[0m
+  Rendered products/index.html.erb within layouts/application (183.9ms)
+Completed 200 OK in 371ms (Views: 299.0ms | ActiveRecord: 56.4ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.9ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (28.8ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (77.2ms)
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+
+Started GET "/assets/flexslider.css" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+
+Started GET "/assets/jcart.css" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+
+Started GET "/assets/LOGO2.png" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+
+Started GET "/assets/home.gif" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+
+Started GET "/assets/ico4.png" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+
+Started GET "/assets/ico2.png" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+
+Started GET "/images/original/missing.png" for 127.0.0.1 at 2016-09-26 21:00:22 +0300
+
+ActionController::RoutingError (No route matches [GET] "/images/original/missing.png"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.9ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (195.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.9ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (33.7ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (2.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (72.5ms)
+
+
+Started GET "/assets/ico3.png" for 127.0.0.1 at 2016-09-26 21:00:23 +0300
+
+
+Started GET "/assets/ico1.png" for 127.0.0.1 at 2016-09-26 21:00:23 +0300
+
+
+Started GET "/assets/fbg.png" for 127.0.0.1 at 2016-09-26 21:00:23 +0300
+
+
+Started GET "/assets/shoko.jpg" for 127.0.0.1 at 2016-09-26 21:00:23 +0300
+
+
+Started GET "/assets/catbg.png" for 127.0.0.1 at 2016-09-26 21:00:23 +0300
+
+
+Started GET "/assets/menu.png" for 127.0.0.1 at 2016-09-26 21:00:23 +0300
+
+
+Started DELETE "/products/2" for 127.0.0.1 at 2016-09-26 21:00:44 +0300
+Processing by ProductsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"E0bZvX/u/tC6ktZt6EuZdmu0AAL4hDtczYV604uwRk/M4tJgC7PG+/tPTjwq6gn/CrBmSTzprmpf+TPxs/+tIg==", "id"=>"2"}
+  [1m[35mProduct Load (42.6ms)[0m  SELECT  `products`.* FROM `products` WHERE `products`.`id` = 2 LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (12.5ms)[0m  DELETE FROM `packings_products` WHERE `packings_products`.`product_id` = 2
+  [1m[36mSQL (3.8ms)[0m  [1mDELETE FROM `products` WHERE `products`.`id` = 2[0m
+  [1m[35m (25.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/products
+Completed 302 Found in 99ms (ActiveRecord: 85.0ms)
+
+
+Started GET "/products" for 127.0.0.1 at 2016-09-26 21:00:44 +0300
+Processing by ProductsController#index as HTML
+  [1m[36mProduct Load (0.4ms)[0m  [1mSELECT `products`.* FROM `products`[0m
+  Rendered products/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 257ms (Views: 255.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (14.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (18.9ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (177.7ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (4.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (75.7ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (156.8ms)
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/jcart.css" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/flexslider.css" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/LOGO2.png" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/home.gif" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/ico1.png" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/ico3.png" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/ico4.png" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/ico2.png" for 127.0.0.1 at 2016-09-26 21:00:45 +0300
+
+
+Started GET "/assets/shoko.jpg" for 127.0.0.1 at 2016-09-26 21:00:46 +0300
+
+
+Started GET "/assets/menu.png" for 127.0.0.1 at 2016-09-26 21:00:46 +0300
+
+
+Started GET "/assets/catbg.png" for 127.0.0.1 at 2016-09-26 21:00:46 +0300
+
+
+Started GET "/assets/fbg.png" for 127.0.0.1 at 2016-09-26 21:00:46 +0300
+
+
+Started GET "/products" for 127.0.0.1 at 2016-09-26 21:02:11 +0300
+Processing by ProductsController#index as HTML
+  [1m[35mProduct Load (1.2ms)[0m  SELECT `products`.* FROM `products`
+  Rendered products/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 228ms (Views: 225.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/stylesheets/application.css" for 127.0.0.1 at 2016-09-26 21:02:11 +0300
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  actionpack (4.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.0) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.0) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.0) lib/action_dispatch/middleware/static.rb:113:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.0) lib/rails/engine.rb:518:in `call'
+  railties (4.2.0) lib/rails/application.rb:164:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/patron/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (20.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb (5.1ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.9ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (163.8ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (76.8ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/patron/.rvm/gems/ruby-2.1.5@novogodniepodarki/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (150.3ms)
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/candies.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/candies_products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/base.self-8dd1d1a22a7ff3bf4faa70885ea5f452367e7249102c52508c66d85ca396ee8b.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/base/base.self-5c31367e8435d872a028f6605074c8b1e15b9469a128b92dd29dfe40165b8ca3.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/objects/base_builder.self-2a2088185a25893bbee6bf3da7fde2f1160e33f9903e29e01701ecdf87326e98.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/objects/builder.self-77682740ac05e1b18efcf955f75aabdc3877aeee1ee4d5d6fddc74f8a08009ea.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/objects/handler.self-2f220cab5c91a054a6ee7f5b4c1eaab6edd160062ee3709c81714c18a6fbefa3.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/objects/null_clusterer.self-c6d6f37e996f50b27bf70e66b8956ee03cd4f3e35ae2e69c7b03e9dff7ea48e3.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/common.self-4b07ecd5e825fd2ba2793cb0323b0f19636ae2343ad8e8e9fe419152107b8ab4.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/circle.self-188e8cef42efa47cf5a4a3956af3dc67a3d6651bc2a9ca220cfcb6fc3e463e35.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/bound.self-f340597454ebfa045f68c5f93f61cff52646146ec38c903a2769e5b0501cd687.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/clusterer.self-a1f1a7df46fc8cecc592eef0f15b9e02f3431c8fa70ed30ce4de854e7facb5c4.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/kml.self-ffee6612ec52f7bcd758c1b5370a0e803412189ce09773551831e6c06a3375b1.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/map.self-6de83910df5426e7f72211a33d291d790c3198744bdced71b84572bfca56201c.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/marker.self-742a43efffcab09bde1334c67758f411c41e4fa1df3dd5a39e498e7f7e78e27c.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/polyline.self-22e88b34eec70842a3547dd072bbf85a45c001b0a479fc11ec22bd242b6703f4.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/builders/polygon.self-08644c000d23e711283ea74461680417f8e6c30fe6c32c3dcb7cc9395e9e3f17.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/bound.self-d13a639bd7207854bf9ef3f6df82bea172352162b142f56e7032ff7ac9193b1e.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/circle.self-33825f7d2fed1c7ba3c7afae7bd2e4f616b77373660fb65d895affcc5c952610.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/clusterer.self-4f2479016fe0e484ef10477924f1bd0df5103bd5d9fca97dacb1a805369eae1d.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/map.self-fbfa0453de0420c083e9daee1f103702e6fb765d977bd361ebca9265c754f1fc.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/kml.self-5ec58fa580d178250382b8139e22df32db261af083e6ec63528aec06ac26f9c3.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/marker.self-1cffb1966c70a5ca4fb34e8ac501dca0e7c42af09f3f99752caa5fc6f09b1d02.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/polygon.self-ceb351c472231550371b47497b02ad128fbf6e44c30482fb5c153ef880fad696.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/objects/polyline.self-d6d7caf58094ef9b48b3e93abdcc0f43c6b3fb204c882f4613577480cbe5d857.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/locations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/gmaps/google/primitives.self-5b8a3a670839d76c06f9877827daa0d739b27f8d6ebd346d7fc6006819755e65.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/packings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/products.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/jcart.css" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/flexslider.css" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/LOGO2.png" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/home.gif" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/ico1.png" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/ico3.png" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/ico4.png" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/ico2.png" for 127.0.0.1 at 2016-09-26 21:02:12 +0300
+
+
+Started GET "/assets/fbg.png" for 127.0.0.1 at 2016-09-26 21:02:13 +0300
+
+
+Started GET "/assets/catbg.png" for 127.0.0.1 at 2016-09-26 21:02:13 +0300
+
+
+Started GET "/assets/shoko.jpg" for 127.0.0.1 at 2016-09-26 21:02:13 +0300
+
+
+Started GET "/assets/menu.png" for 127.0.0.1 at 2016-09-26 21:02:13 +0300
+
+
+Started GET "/" for 127.0.0.1 at 2016-09-26 21:02:14 +0300
+Processing by HomeController#index as HTML
+  [1m[36mProduct Load (3.3ms)[0m  [1mSELECT `products`.* FROM `products` WHERE `products`.`types` = 't'[0m
+  Rendered home/index.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 241ms (Views: 235.9ms | ActiveRecord: 3.3ms)

@@ -34,9 +34,23 @@ development:
 production:
   adapter: mysql2
   encoding: utf8
-  database: podarkin_main
-  username: podarkin_elena
-  password: elena
+  database: patreewi_novog58
+  username: patreewi_novog58
+  password: dmRXDf9Ktr
+  host: mysql7.locum.ru
+  socket: /var/run/mysqld/mysqld.sock
+
+
+
+
+
+
+# production:
+#   adapter: mysql2
+#   encoding: utf8
+#   database: podarkin_main
+#   username: podarkin_elena
+#   password: elena
 # host: 127.0.0.1
 # port: 3306
 #   adapter: mysql2

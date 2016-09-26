@@ -13,4 +13,3 @@
 #                price: '250000',
 #                types: 'title')
 
-CandiesProduct.delete_all
