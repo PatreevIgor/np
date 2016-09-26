@@ -9,4 +9,11 @@ class Product < ActiveRecord::Base
 
   has_many :candies_products
   has_many :candies, :through => :candies_products
+
+  validates :title, :description, :price, :types,  presence: true
+
+
+
+
+
 end

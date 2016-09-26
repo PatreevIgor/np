@@ -44,7 +44,7 @@ h3{color:#d91d40; font-weight:normal; font-size:14pt; margin:0; padding:5px 0;}
 .ded-inner{position:absolute; top:-110px; left:160px;}
 
 .catli{padding:0; margin:0; list-style:none;}
-.catli li{float:left; width:246px; text-align:center; padding-top:10px;}
+.catli li{float:left; width:198px; text-align:center; padding-top:10px;}
 .catli li.catline{width:2px; height:167px; background:url('http://morozoff.by/images/line.png') no-repeat;}
 .catli a{text-decoration:none; color:#fff; font-size:14pt;}
 .catli li:hover a{text-decoration:underline;}
@@ -341,3 +341,4 @@ color: red; /* Цвет символа */
 	text-align:justify;
 	margin-right: 15px;
 }
+

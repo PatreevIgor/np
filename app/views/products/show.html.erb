@@ -9,10 +9,11 @@
             <div class="list-block">
             <div class="tit"><a href="http://morozoff.by/">Новогодние подарки</a></div>
               <ul class="list">
+                <li><a href="/classic">Подарки Классик</a></li>
                 <li><a href="/roshen">Подарки Рошен</a></li>
                 <li><a href="/prestig">Подарки Престиж</a></li>
                 <li><a href="/vip">Подарки VIP</a></li>
-                <li><a href="/elit">Новогодняя упаковка</a></li>
+                <li><a href="/np">Новогодняя упаковка</a></li>
 
               </ul>
             </div>
@@ -59,55 +60,77 @@
               <br><%= @product.description.html_safe %><br>
             </div>
               <div class="price"> <%= @product.price %> бел.руб <span style="font-size:60%; color:#000;"></span></div>
-
-
-
-
               <div class="clear"></div>
             </form>
 
-              <p>
-                <strong>Packings Titles:</strong>
-                <% @product.packings.each do |c| %>
 
-                 <%= c.title %>
-                 <%= image_tag (c.image), :width => 150, :height => 150 %>
+<% if @product.candies.empty? %>
+<% else %>
+<p>
+<strong>Конфеты:</strong>
+</p>
 
-                <% end %>
-                  
-             </p>
+<table border="0" width="98%">
+  <thead>
+    <tr>
+      <th>Изображение</th>
+      <th>Название</th>
+      <th>Количество</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @product.candies.each do |c| %>
+      <tr>
+        <td align='center' width="20%"><%= image_tag (c.image), :width => 50, :height => 50 %></td>
+        <td align='center' width="60%"><%= c.title %></td>
+        <td align='center' width="20%"><%= @CandiesProducts.where(product_id: @product.id, candy_id: c.id).first.count %></td>
+     </tr>
+<% end %>
+  </tbody>
+</table>
+<% end %>
+
+<% if @product.packings.empty? %>
+<% else %>
+<strong>Возможные упаковки:</strong>
+</p>
+<table border="0" width="98%">
+  <thead>
+    <tr>
+      <th>Изображение</th>
+      <th>Название</th>
+      <th>Описание</th>
+      <th>Цена</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @product.packings.each do |c| %>
+      <tr>
+        <td align='center' width="20%"><%= image_tag (c.image), :width => 100, :height => 100 %></td>
+        <td align='center' width="30%"><%= c.title %></td>
+        <td align='center' width="40%"><%= c.description %></td>
+        <td align='center' width="10%"><%= c.price %></td>
+      </tr>
+        <% end %>
+  </tbody>
+</table>
+<% end %>
 
 
 
-              <p>
-                <strong>Candies Titles:</strong>
-                <% @product.candies.each do |c| %>
-
-                 <%= c.title %>
-                 <%= image_tag (c.image), :width => 150, :height => 150 %>
-
-                 
-                 <%= @CandiesProducts.where(product_id: @product.id, candy_id: c.id).first.count %>
 
 
 
-<!--              <%= @CandiesProducts.count %>  -->
-             <p>
-               <%= link_to 'Edit', edit_candies_product_path(@CandiesProducts.where(product_id: @product.id, candy_id: c.id).first) %>  
-<!--              <%= c.inspect %>
- -->
-                <% end %>
-                  
-             </p>
 
 
 
-<!--               <p>
-                <strong>Candies Titles:</strong>
-                <%= @product.candies.map {|c| c.title }.join(', ') %>
-              </p> -->
+
 
           </td>
         </tr>
-      </tbody></table>
+      </tbody>
+
+      </table>
 

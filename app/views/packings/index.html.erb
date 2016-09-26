@@ -8,6 +8,7 @@
       <th>Image</th>
       <th>Title</th>
       <th>Description</th>
+      <th>Price</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -16,9 +17,9 @@
     <% @packings.each do |packing| %>
       <tr>
         <td><%= image_tag packing.image, :width => 150, :height => 150 %></td>
-
         <td><%= packing.title %></td>
         <td><%= packing.description %></td>
+        <td><%= packing.price %></td>
         <td><%= link_to 'Show', packing %></td>
         <td><%= link_to 'Edit', edit_packing_path(packing) %></td>
         <td><%= link_to 'Destroy', packing, method: :delete, data: { confirm: 'Are you sure?' } %></td>

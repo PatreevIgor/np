@@ -17,10 +17,11 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'home#index'
 
+    get 'classic' => 'home#classic'
     get 'roshen' => 'home#roshen'
     get 'prestig' => 'home#prestig'
     get 'vip' => 'home#vip'
-    get 'elit' => 'home#elit'
+    get 'np' => 'home#np'
     get 'all' => 'home#all'
     get 'about_the_company' => 'home#about_the_company'
     get 'shares' => 'home#shares'

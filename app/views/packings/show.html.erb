@@ -1,19 +1,10 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-              <div id="img_for_show">
-                <%= image_tag @packing.image, :width => 350 %>
-              </div>
+<strong>Image:</strong>
+    <%= image_tag @packing.image, :width => 350 %>
+
 </p>
-
-
-
-
-<p>
-  <strong>Image:</strong>
-  <%= @packing.image %>
-</p>
-
 
 <p>
   <strong>Title:</strong>
@@ -23,6 +14,11 @@
 <p>
   <strong>Description:</strong>
   <%= @packing.description %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @packing.price %>
 </p>
 
 <%= link_to 'Edit', edit_packing_path(@packing) %> |

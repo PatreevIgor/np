@@ -4,12 +4,14 @@
       <h2><%= pluralize(@product.errors.count, "error") %> prohibited this product from being saved:</h2>
 
       <ul>
-      <% @product.errors.full_messages.each do |message| %>
+  <% @product.errors.full_messages.each do |message| %>
         <li><%= message %></li>
       <% end %>
       </ul>
     </div>
   <% end %>
+
+
 
   <div class="field">
     <%= f.label :title %><br>
@@ -25,6 +27,7 @@
   </div>
 
     <div class="field">
+    <%= f.label :image %><br>
     <%= f.file_field :image %>
   </div>
 
@@ -33,24 +36,22 @@
     <%= f.text_field :types %>
   </div>
 
+   <div class="field">
+      Pakings<br>
+      <%= collection_check_boxes(:product, :packing_ids, @packings, :id, :title) %>
+  </div>
+
+  <div class="field">
+      Candies<br>
+          <% @candies.each do |candy| %> 
+            <%= candy.title %> 
+            <%= check_box_tag "check_box[#{candy.id}]" %> 
+            <%= text_field_tag "count[#{candy.id}]" %> 
+          <% end %> 
+  </div>
+
   <div class="actions">
     <%= f.submit %>
   </div>
 
-    <div class="field">
-    <%= collection_check_boxes(:product, :packing_ids, @packings, :id, :title) %>
-  </div>
-
-  <div class="field">
-
-<% @candies.each do |candy| %> 
-<%= candy.title %> 
-<%= check_box_tag "check_box[#{candy.id}]" %> 
-<%= text_field_tag "count[#{candy.id}]" %> 
-
-<% end %> 
-
-
-
-  </div>
 <% end %>

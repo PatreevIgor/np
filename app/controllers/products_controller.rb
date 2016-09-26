@@ -3,7 +3,7 @@ class ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
-    @products = Product.all
+    @products = Product.all.sort_by {|x| [x.types] }
   end
 
   # GET /products/1
@@ -21,6 +21,8 @@ class ProductsController < ApplicationController
 
   # GET /products/1/edit
   def edit
+    @packings = Packing.all
+    @candies = Candy.all
     @packings = Packing.all
   end
 

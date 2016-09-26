@@ -16,7 +16,7 @@
     <% @candies.each do |candy| %>
       <tr>
         <td><%= candy.title %></td>
-        <td><%= image_tag candy.image, :width => 150, :height => 150 %></td>
+        <td><%= image_tag candy.image, :width => 50, :height => 50 %></td>
         <td><%= candy.manufacturer %></td>
         <td><%= link_to 'Show', candy %></td>
         <td><%= link_to 'Edit', edit_candy_path(candy) %></td>
