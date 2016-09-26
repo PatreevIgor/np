@@ -822,3 +822,912 @@ You can enable  auto-update  with:    echo rvm_autoupdate_flag=2 >> ~/.rvmrc
  DEBUG [d14cc01b] 	[31mAn error occurred while installing nokogiri (1.6.6.2), and Bundler cannot
 continue.
 Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.[0m
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-26 23:16:14 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2f297c54] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [2f297c54] Command: [ -d ~/.rvm ]
+ DEBUG [2f297c54] Finished in 10.544 seconds with exit status 1 (failed).
+ DEBUG [cbd8214b] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cbd8214b] Command: [ -d /usr/local/rvm ]
+ DEBUG [cbd8214b] Finished in 2.446 seconds with exit status 0 (successful).
+ DEBUG [b1066121] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b1066121] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [b1066121] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [b1066121] Finished in 0.312 seconds with exit status 0 (successful).
+ DEBUG [6c1bb3fc] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6c1bb3fc] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [6c1bb3fc] 	ruby-2.3.1
+ DEBUG [6c1bb3fc] Finished in 0.310 seconds with exit status 0 (successful).
+ DEBUG [b4416ce1] Running /usr/local/rvm/bin/rvm default do ruby --version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b4416ce1] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm default do ruby --version )
+ DEBUG [b4416ce1] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [b4416ce1] Finished in 0.538 seconds with exit status 0 (successful).
+  INFO [15020224] Running /usr/bin/env mkdir -p /tmp as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [15020224] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /tmp )
+  INFO [15020224] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 0.0%
+  INFO Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 100.0%
+  INFO [0b1ffe5a] Running /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0b1ffe5a] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh )
+  INFO [0b1ffe5a] Finished in 0.050 seconds with exit status 0 (successful).
+  INFO [76aa6932] Running /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [76aa6932] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git )
+ DEBUG [76aa6932] 	579079da55134e675e762e3104187c04882f08cd	refs/heads/master
+  INFO [76aa6932] Finished in 0.825 seconds with exit status 0 (successful).
+  INFO [52f69d9d] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [52f69d9d] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+  INFO [52f69d9d] Finished in 0.056 seconds with exit status 0 (successful).
+  INFO [3124a698] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [3124a698] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets )
+  INFO [3124a698] Finished in 0.057 seconds with exit status 0 (successful).
+ DEBUG [8a9fd843] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8a9fd843] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ]
+ DEBUG [8a9fd843] Finished in 0.052 seconds with exit status 1 (failed).
+ DEBUG [17fd0587] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [17fd0587] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ]
+ DEBUG [17fd0587] Finished in 0.055 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/hosting_patreewigor4/projects/novogodniepodarki/repo
+ DEBUG [766d4d79] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [766d4d79] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [766d4d79] Finished in 0.047 seconds with exit status 0 (successful).
+  INFO [991e728d] Running /usr/bin/env git remote update --prune as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [991e728d] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [991e728d] 	Fetching origin
+ DEBUG [991e728d] 	remote: Counting objects: 7, done.[K
+remote: Compressing objects:  50% (1/2)   [Kremote: Compressing objects: 100% (2/2)   [Kremote: Compressing objects: 100% (2/2), done.[K
+ DEBUG [991e728d] 	remote: Total 7 (delta 3), reused 7 (delta 3), pack-reused 0[K
+ DEBUG [991e728d] 	Unpacking objects:  14% (1/7)   
+ DEBUG [991e728d] 	Unpacking objects:  28% (2/7)   
+ DEBUG [991e728d] 	Unpacking objects:  42% (3/7)   
+ DEBUG [991e728d] 	Unpacking objects:  57% (4/7)   
+ DEBUG [991e728d] 	Unpacking objects:  71% (5/7)   
+ DEBUG [991e728d] 	Unpacking objects:  85% (6/7)   
+ DEBUG [991e728d] 	Unpacking objects: 100% (7/7)   Unpacking objects: 100% (7/7), done.
+ DEBUG [991e728d] 	From https://github.com/PatreevIgor/np
+   24de749..579079d  master     -> master
+  INFO [991e728d] Finished in 1.047 seconds with exit status 0 (successful).
+ DEBUG [c42e0075] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c42e0075] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [c42e0075] Finished in 0.053 seconds with exit status 0 (successful).
+  INFO [c0e10b0c] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c0e10b0c] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629 )
+  INFO [c0e10b0c] Finished in 0.063 seconds with exit status 0 (successful).
+  INFO [24b82434] Running /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [24b82434] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629 )
+  INFO [24b82434] Finished in 0.371 seconds with exit status 0 (successful).
+ DEBUG [db4516a5] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [db4516a5] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [db4516a5] Finished in 0.055 seconds with exit status 0 (successful).
+ DEBUG [6cc290e9] Running /usr/bin/env git rev-list --max-count=1 master as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6cc290e9] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [6cc290e9] 	579079da55134e675e762e3104187c04882f08cd
+ DEBUG [6cc290e9] Finished in 0.057 seconds with exit status 0 (successful).
+ DEBUG [9684d4e5] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [9684d4e5] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629'" 1>&2; false; fi
+ DEBUG [9684d4e5] Finished in 0.048 seconds with exit status 0 (successful).
+  INFO [db15f2df] Running /usr/bin/env echo "579079da55134e675e762e3104187c04882f08cd" >> REVISION as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [db15f2df] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "579079da55134e675e762e3104187c04882f08cd" >> REVISION )
+  INFO [db15f2df] Finished in 0.052 seconds with exit status 0 (successful).
+  INFO [0e805a52] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0e805a52] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public )
+  INFO [0e805a52] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [4bc437eb] Running [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [4bc437eb] Command: [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public/assets ]
+ DEBUG [4bc437eb] Finished in 0.057 seconds with exit status 1 (failed).
+ DEBUG [ddc17a3f] Running [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [ddc17a3f] Command: [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public/assets ]
+ DEBUG [ddc17a3f] Finished in 0.060 seconds with exit status 1 (failed).
+  INFO [629e948e] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [629e948e] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629/public/assets )
+  INFO [629e948e] Finished in 0.400 seconds with exit status 0 (successful).
+ DEBUG [14a51942] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [14a51942] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629'" 1>&2; false; fi
+ DEBUG [14a51942] Finished in 0.391 seconds with exit status 0 (successful).
+  INFO [52671c63] Running /usr/local/rvm/bin/rvm default do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [52671c63] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160926201629 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm default do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet )
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: Resource temporarily unavailable
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: No child processes
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: Ресурс временно недоступен
+/usr/local/rvm/scripts/functions/utility: fork: Resource temporarily unavailable
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #gemset created /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki[0m
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/support: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/support: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/support: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/support: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/support: fork: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/utility: fork: Ресурс временно недоступен
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/gemset: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/gemset: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/gemset: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/gemset: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/gemset: fork: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/env: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/gemset: fork: retry: Ресурс временно недоступен
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/gemset: fork: retry: Нет дочерних процессов
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: 
+ DEBUG [52671c63] 	failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: 
+ DEBUG [52671c63] 	failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\|/-\|/-.|/-\
+ DEBUG [52671c63] 	|/-\|.
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\|/-
+ DEBUG [52671c63] 	\|/-.|/-\|
+ DEBUG [52671c63] 	/-\|.-\|/-\|/-.|/-\|/-\|
+ DEBUG [52671c63] 	.-\|/-
+ DEBUG [52671c63] 	\|/-.|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\
+ DEBUG [52671c63] 	|/-\|/-.
+ DEBUG [52671c63] 	|/-\|/-\|.-\|/-\|
+ DEBUG [52671c63] 	/-.|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\|/-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.-\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-
+ DEBUG [52671c63] 	\|/-\|/-
+ DEBUG [52671c63] 	.|/-\|
+ DEBUG [52671c63] 	/-\
+ DEBUG [52671c63] 	|.-
+ DEBUG [52671c63] 	\|/-\
+ DEBUG [52671c63] 	|/-
+ DEBUG [52671c63] 	.|/
+ DEBUG [52671c63] 	-\|
+ DEBUG [52671c63] 	/-\
+ DEBUG [52671c63] 	|.
+ DEBUG [52671c63] 	-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-
+ DEBUG [52671c63] 	.|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-.
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-
+ DEBUG [52671c63] 	\|.-\
+ DEBUG [52671c63] 	|/-\|/-.|/-\
+ DEBUG [52671c63] 	|/-\|.-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	.|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.-\|/-\|/-.|/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\
+ DEBUG [52671c63] 	|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: 
+ DEBUG [52671c63] 	cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\|/-
+ DEBUG [52671c63] 	\|/-.|/-\|/-
+ DEBUG [52671c63] 	\|.-\|/-\|/-.|/-\|/-\
+ DEBUG [52671c63] 	|.-\|/-\|/-
+ DEBUG [52671c63] 	.|/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\
+ DEBUG [52671c63] 	|/-\|.-\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: 
+ DEBUG [52671c63] 	failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\|/-\|/-.
+ DEBUG [52671c63] 	|/-\|
+ DEBUG [52671c63] 	/-\|.-\|/
+ DEBUG [52671c63] 	-\|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-.|
+ DEBUG [52671c63] 	/-\
+ DEBUG [52671c63] 	|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-
+ DEBUG [52671c63] 	\|/
+ DEBUG [52671c63] 	-\|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-.|/-\|/-\|.-\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\|/
+ DEBUG [52671c63] 	-.|/-\|/-\
+ DEBUG [52671c63] 	|.-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\|/-\|/-.|/-\
+ DEBUG [52671c63] 	|/-\|.-
+ DEBUG [52671c63] 	\|/-\|/-.|
+ DEBUG [52671c63] 	/-\|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: 
+ DEBUG [52671c63] 	failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	ln: 
+ DEBUG [52671c63] 	failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-
+ DEBUG [52671c63] 	\|/-\
+ DEBUG [52671c63] 	|.-\|/-
+ DEBUG [52671c63] 	\|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: 
+ DEBUG [52671c63] 	failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki'
+ DEBUG [52671c63] 	: Permission denied
+ DEBUG [52671c63] 	
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\|.-\
+ DEBUG [52671c63] 	|/-\|/
+ DEBUG [52671c63] 	-.
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-\|.-\|/-\
+ DEBUG [52671c63] 	|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	mkdir: cannot create directory '/usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	/usr/local/rvm/scripts/functions/environment: line 93: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 100: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+/usr/local/rvm/scripts/functions/environment: line 99: /usr/local/rvm/gems/ruby-2.1.5@novogodniepodarki/environment: Нет такого файла или каталога
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/environments/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	ln: failed to create symbolic link '/usr/local/rvm/wrappers/ruby-2.1.5@novogodniepodarki': Permission denied
+ DEBUG [52671c63] 	[32mruby-2.1.5 - #generating novogodniepodarki wrappers[0m
+ DEBUG [52671c63] 	|/-\|/-\
+ DEBUG [52671c63] 	|.-\|/
+ DEBUG [52671c63] 	-\|/-.|/-
+ DEBUG [52671c63] 	\|/-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	.
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	.-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\|
+ DEBUG [52671c63] 	/
+ DEBUG [52671c63] 	-.
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|
+ DEBUG [52671c63] 	/-\|.-
+ DEBUG [52671c63] 	\|/
+ DEBUG [52671c63] 	-
+ DEBUG [52671c63] 	\
+ DEBUG [52671c63] 	|/-.|/-\|/-\|.-\|/
+ DEBUG [52671c63] 	-\
+ DEBUG [52671c63] 	|/-..
+ DEBUG [52671c63] 	Warning, new version of rvm available '1.27.0', you are using older version '1.25.34'.
+You can disable this warning with:    echo rvm_autoupdate_flag=0 >> ~/.rvmrc
+You can enable  auto-update  with:    echo rvm_autoupdate_flag=2 >> ~/.rvmrc
+ DEBUG [52671c63] 	[31mAn error occurred while installing nokogiri (1.6.6.2), and Bundler cannot
+continue.
+Make sure that `gem install nokogiri -v '1.6.6.2'` succeeds before bundling.[0m
