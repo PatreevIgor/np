@@ -4053,3 +4053,362 @@ Could not update RVM, get some help at #rvm IRC channel at freenode servers.
   INFO ---------------------------------------------------------------------------
  DEBUG [44f62b26] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
  DEBUG [44f62b26] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-28 00:51:43 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2fff5636] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [2fff5636] Command: [ -d ~/.rvm ]
+ DEBUG [2fff5636] Finished in 17.134 seconds with exit status 1 (failed).
+ DEBUG [f6e2ff03] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f6e2ff03] Command: [ -d /usr/local/rvm ]
+ DEBUG [f6e2ff03] Finished in 2.671 seconds with exit status 0 (successful).
+ DEBUG [6c96fb51] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6c96fb51] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [6c96fb51] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [6c96fb51] Finished in 0.401 seconds with exit status 0 (successful).
+ DEBUG [8659c543] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8659c543] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [8659c543] 	ruby-2.3.1
+ DEBUG [8659c543] Finished in 0.378 seconds with exit status 0 (successful).
+ DEBUG [46093161] Running /usr/local/rvm/bin/rvm default do ruby --version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [46093161] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm default do ruby --version )
+ DEBUG [46093161] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [46093161] Finished in 0.642 seconds with exit status 0 (successful).
+  INFO [123959e3] Running /usr/bin/env mkdir -p /tmp as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [123959e3] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /tmp )
+  INFO [123959e3] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 0.0%
+  INFO Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 100.0%
+  INFO [c75769d3] Running /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c75769d3] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh )
+  INFO [c75769d3] Finished in 0.129 seconds with exit status 0 (successful).
+  INFO [41e306b6] Running /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [41e306b6] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git )
+ DEBUG [41e306b6] 	d7b41ef3775518c03be8f6a676334c9ccaaa044a	refs/heads/master
+  INFO [41e306b6] Finished in 1.301 seconds with exit status 0 (successful).
+  INFO [e4c786a1] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e4c786a1] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+  INFO [e4c786a1] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [d3d336f9] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d3d336f9] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets )
+  INFO [d3d336f9] Finished in 0.065 seconds with exit status 0 (successful).
+ DEBUG [dc0c581f] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [dc0c581f] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ]
+ DEBUG [dc0c581f] Finished in 0.061 seconds with exit status 0 (successful).
+ DEBUG [7bc0d83d] Running /usr/bin/env cat /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION 2>/dev/null as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7bc0d83d] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env cat /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION 2>/dev/null )
+ DEBUG [7bc0d83d] 	336611f466ef487a01a113c4f742b00a8402acf8
+ DEBUG [7bc0d83d] Finished in 0.079 seconds with exit status 0 (successful).
+ DEBUG [94ab0a1f] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [94ab0a1f] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ]
+ DEBUG [94ab0a1f] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/hosting_patreewigor4/projects/novogodniepodarki/repo
+ DEBUG [225a2ca2] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [225a2ca2] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [225a2ca2] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [8e052d3c] Running /usr/bin/env git remote update --prune as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8e052d3c] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [8e052d3c] 	Fetching origin
+ DEBUG [8e052d3c] 	remote: Counting objects: 686, done.[K
+remote: Compressing objects:   0% (1/540)   [Kremote: Compressing objects:   1% (6/540)   [Kremote: Compressing objects:   2% (11/540)   [Kremote: Compressing objects:   3% (17/540)   [Kremote: Compressing objects:   4% (22/540)   [Kremote: Compressing objects:   5% (27/540)   [Kremote: Compressing objects:   6% (33/540)   [Kremote: Compressing objects:   7% (38/540)   [Kremote: Compressing objects:   8% (44/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:   9% (49/540)   [Kremote: Compressing objects:  10% (54/540)   [Kremote: Compressing objects:  11% (60/540)   [Kremote: Compressing objects:  12% (65/540)   [Kremote: Compressing objects:  13% (71/540)   [Kremote: Compressing objects:  14% (76/540)   [Kremote: Compressing objects:  15% (81/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  16% (87/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  17% (92/540)   [Kremote: Compressing objects:  18% (98/540)   [Kremote: Compressing objects:  19% (103/540)   [Kremote: Compressing objects:  20% (108/540)   [Kremote: Compressing objects:  21% (114/540)   [Kremote: Compressing objects:  22% (119/540)   [Kremote: Compressing objects:  23% (125/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  24% (130/540)   [Kremote: Compressing objects:  25% (135/540)   [Kremote: Compressing objects:  26% (141/540)   [Kremote: Compressing objects:  27% (146/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  28% (152/540)   [Kremote: Compressing objects:  29% (157/540)   [Kremote: Compressing objects:  30% (162/540)   [Kremote: Compressing objects:  31% (168/540)   [Kremote: Compressing objects:  32% (173/540)   [Kremote: Compressing objects:  33% (179/540)   [Kremote: Compressing objects:  34% (184/540)   [Kremote: Compressing objects:  35% (189/540)   [Kremote: Compressing objects:  36% (195/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  37% (200/540)   [Kremote: Compressing objects:  38% (206/540)   [Kremote: Compressing objects:  39% (211/540)   [Kremote: Compressing objects:  40% (216/540)   [Kremote: Compressing objects:  41% (222/540)   [Kremote: Compressing objects:  42% (227/540)   [Kremote: Compressing objects:  43% (233/540)   [Kremote: Compressing objects:  44% (238/540)   [Kremote: Compressing objects:  45% (243/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  46% (249/540)   [Kremote: Compressing objects:  47% (254/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  48% (260/540)   [Kremote: Compressing objects:  49% (265/540)   [Kremote: Compressing objects:  50% (270/540)   [Kremote: Compressing objects:  51% (276/540)   [Kremote: Compressing objects:  52% (281/540)   [Kremote: Compressing objects:  53% (287/540)   [Kremote: Compressing objects:  54% (292/540)   [Kremote: Compressing objects:  55% (297/540)   [Kremote: Compressing objects:  56% (303/540)   [Kremote: Compressing objects:  57% (308/540)   [Kremote: Compressing objects:  58% (314/540)   [Kremote: Compressing objects:  59% (319/540)   [Kremote: Compressing objects:  60% (324/540)   [Kremote: Compressing objects:  61% (330/540)   [Kremote: Compressing objects:  62% (335/540)   [Kremote: Compressing objects:  63% (341/540)   [Kremote: Compressing objects:  64% (346/540)   [Kremote: Compressing objects:  65% (351/540)   [K
+ DEBUG [8e052d3c] 	remote: Compressing objects:  66% (357/540)   [Kremote: Compressing objects:  67% (362/540)   [Kremote: Compressing objects:  68% (368/540)   [Kremote: Compressing objects:  69% (373/540)   [Kremote: Compressing objects:  70% (378/540)   [Kremote: Compressing objects:  71% (384/540)   [Kremote: Compressing objects:  72% (389/540)   [Kremote: Compressing objects:  73% (395/540)   [Kremote: Compressing objects:  74% (400/540)   [Kremote: Compressing objects:  75% (405/540)   [Kremote: Compressing objects:  76% (411/540)   [Kremote: Compressing objects:  77% (416/540)   [Kremote: Compressing objects:  78% (422/540)   [Kremote: Compressing objects:  79% (427/540)   [Kremote: Compressing objects:  80% (432/540)   [Kremote: Compressing objects:  81% (438/540)   [Kremote: Compressing objects:  82% (443/540)   [Kremote: Compressing objects:  83% (449/540)   [Kremote: Compressing objects:  84% (454/540)   [Kremote: Compressing objects:  85% (459/540)   [Kremote: Compressing objects:  86% (465/540)   [Kremote: Compressing objects:  87% (470/540)   [Kremote: Compressing objects:  88% (476/540)   [Kremote: Compressing objects:  89% (481/540)   [Kremote: Compressing objects:  90% (486/540)   [Kremote: Compressing objects:  91% (492/540)   [Kremote: Compressing objects:  92% (497/540)   [Kremote: Compressing objects:  93% (503/540)   [Kremote: Compressing objects:  94% (508/540)   [Kremote: Compressing objects:  95% (513/540)   [Kremote: Compressing objects:  96% (519/540)   [Kremote: Compressing objects:  97% (524/540)   [Kremote: Compressing objects:  98% (530/540)   [Kremote: Compressing objects:  99% (535/540)   [Kremote: Compressing objects: 100% (540/540)   [Kremote: Compressing objects: 100% (540/540), done.[K
+ DEBUG [8e052d3c] 	Receiving objects:   0% (1/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   1% (7/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   2% (14/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   3% (21/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   4% (28/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   5% (35/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   6% (42/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   7% (49/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   8% (55/686)   
+ DEBUG [8e052d3c] 	Receiving objects:   9% (62/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  10% (69/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  11% (76/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  12% (83/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  13% (90/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  14% (97/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  15% (103/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  16% (110/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  17% (117/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  18% (124/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  19% (131/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  20% (138/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  21% (145/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  22% (151/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  23% (158/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  24% (165/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  25% (172/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  26% (179/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  27% (186/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  28% (193/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  29% (199/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  30% (206/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  31% (213/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  32% (220/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  33% (227/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  34% (234/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  35% (241/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  36% (247/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  37% (254/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  38% (261/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  39% (268/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  40% (275/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  41% (282/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  42% (289/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  43% (295/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  44% (302/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  45% (309/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  46% (316/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  47% (323/686)   
+ DEBUG [8e052d3c] 	Receiving objects:  48% (330/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  49% (337/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  50% (343/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  51% (350/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  52% (357/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  53% (364/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  54% (371/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  55% (378/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  56% (385/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  57% (392/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  58% (398/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  59% (405/686), 356.00 KiB | 683.00 KiB/s   Receiving objects:  60% (412/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  61% (419/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  62% (426/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  63% (433/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  64% (440/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  65% (446/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  66% (453/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  67% (460/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  68% (467/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  69% (474/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  70% (481/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	remote: Total 686 (delta 144), reused 686 (delta 144), pack-reused 0[K
+ DEBUG [8e052d3c] 	Receiving objects:  71% (488/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  72% (494/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  73% (501/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  74% (508/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  75% (515/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  76% (522/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  77% (529/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  78% (536/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  79% (542/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  80% (549/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  81% (556/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  82% (563/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  83% (570/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  84% (577/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  85% (584/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  86% (590/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  87% (597/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  88% (604/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  89% (611/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  90% (618/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  91% (625/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  92% (632/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  93% (638/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  94% (645/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  95% (652/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  96% (659/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  97% (666/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  98% (673/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects:  99% (680/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects: 100% (686/686), 356.00 KiB | 683.00 KiB/s   
+ DEBUG [8e052d3c] 	Receiving objects: 100% (686/686), 421.42 KiB | 683.00 KiB/s, done.
+ DEBUG [8e052d3c] 	
+ DEBUG [8e052d3c] 	Resolving deltas:   0% (0/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:   1% (2/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:   2% (4/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:   4% (6/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:   5% (8/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:   6% (9/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:   7% (11/144)   Resolving deltas:   8% (12/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:   9% (13/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  10% (15/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  11% (17/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  13% (19/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  14% (21/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  15% (22/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  16% (24/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  17% (25/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  18% (26/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  19% (28/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  20% (29/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  21% (31/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  22% (32/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  23% (34/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  24% (35/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  25% (36/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  26% (38/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  27% (39/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  28% (41/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  29% (42/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  30% (44/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  31% (45/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  32% (47/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  33% (48/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  34% (49/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  35% (51/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  36% (52/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  37% (54/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  38% (55/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  39% (57/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  40% (58/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  41% (60/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  42% (61/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  43% (62/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  44% (64/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  45% (65/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  46% (67/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  47% (68/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  48% (70/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  49% (71/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  50% (72/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  51% (74/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  52% (75/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  53% (77/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  54% (78/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  55% (80/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  56% (81/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  57% (83/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  58% (84/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  59% (85/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  60% (87/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  61% (88/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  62% (90/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  63% (91/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  64% (93/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  65% (94/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  66% (96/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  67% (97/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  68% (98/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  69% (100/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  70% (101/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  71% (103/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  72% (104/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  73% (106/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  74% (107/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  75% (108/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  76% (110/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  77% (111/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  78% (113/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  79% (114/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  80% (116/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  81% (117/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  82% (119/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  83% (120/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  84% (121/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  85% (123/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  86% (124/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  87% (126/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  88% (127/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  89% (129/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  90% (130/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  91% (132/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  92% (133/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  93% (134/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  94% (136/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  95% (137/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  96% (139/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  97% (140/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  98% (142/144)   
+ DEBUG [8e052d3c] 	Resolving deltas:  99% (143/144)   
+ DEBUG [8e052d3c] 	Resolving deltas: 100% (144/144)   
+ DEBUG [8e052d3c] 	Resolving deltas: 100% (144/144), completed with 127 local objects.
+ DEBUG [8e052d3c] 	
+ DEBUG [8e052d3c] 	From https://github.com/PatreevIgor/np
+ DEBUG [8e052d3c] 	
+ DEBUG [8e052d3c] 	   336611f..d7b41ef  master     -> master
+ DEBUG [8e052d3c] 	
+  INFO [8e052d3c] Finished in 2.228 seconds with exit status 0 (successful).
+ DEBUG [1a3a9da7] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1a3a9da7] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [1a3a9da7] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [6749777b] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6749777b] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 )
+  INFO [6749777b] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [d44d80d5] Running /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d44d80d5] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 )
+  INFO [d44d80d5] Finished in 0.407 seconds with exit status 0 (successful).
+ DEBUG [687a4fc7] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [687a4fc7] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [687a4fc7] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [b859294a] Running /usr/bin/env git rev-list --max-count=1 master as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b859294a] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [b859294a] 	d7b41ef3775518c03be8f6a676334c9ccaaa044a
+ DEBUG [b859294a] Finished in 0.084 seconds with exit status 0 (successful).
+ DEBUG [b20f239a] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b20f239a] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi
+ DEBUG [b20f239a] Finished in 0.067 seconds with exit status 0 (successful).
+  INFO [a5db9c8f] Running /usr/bin/env echo "d7b41ef3775518c03be8f6a676334c9ccaaa044a" >> REVISION as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [a5db9c8f] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "d7b41ef3775518c03be8f6a676334c9ccaaa044a" >> REVISION )
+  INFO [a5db9c8f] Finished in 0.088 seconds with exit status 0 (successful).
+  INFO [93cf4ff2] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [93cf4ff2] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public )
+  INFO [93cf4ff2] Finished in 0.064 seconds with exit status 0 (successful).
+ DEBUG [23aa88cb] Running [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [23aa88cb] Command: [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets ]
+ DEBUG [23aa88cb] Finished in 0.065 seconds with exit status 1 (failed).
+ DEBUG [58fdd42c] Running [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [58fdd42c] Command: [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets ]
+ DEBUG [58fdd42c] Finished in 0.061 seconds with exit status 0 (successful).
+  INFO [04763cbc] Running /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [04763cbc] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets )
+  INFO [04763cbc] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [8e2a7118] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8e2a7118] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets )
+  INFO [8e2a7118] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [311fd743] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [311fd743] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi
+ DEBUG [311fd743] Finished in 0.060 seconds with exit status 0 (successful).
+  INFO [f34ddc95] Running /usr/local/rvm/bin/rvm default do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f34ddc95] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm default do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet )
+  INFO [f34ddc95] Finished in 3.553 seconds with exit status 0 (successful).
+ DEBUG [d56367f1] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d56367f1] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi
+ DEBUG [d56367f1] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [1da0b5cd] Running /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1da0b5cd] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile )
+  INFO [1da0b5cd] Finished in 16.182 seconds with exit status 0 (successful).
+ DEBUG [d13b8166] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d13b8166] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi
+ DEBUG [d13b8166] Finished in 0.073 seconds with exit status 0 (successful).
+  INFO [65dc0c65] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/assets_manifest_backup as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [65dc0c65] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/assets_manifest_backup )
+  INFO [65dc0c65] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [3aa5edf3] Running /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest* as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [3aa5edf3] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest* )
+ DEBUG [3aa5edf3] 	/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json
+ DEBUG [3aa5edf3] Finished in 0.248 seconds with exit status 0 (successful).
+ DEBUG [e1c89878] Running /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest* as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e1c89878] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest* )
+ DEBUG [e1c89878] 	/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json
+ DEBUG [e1c89878] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [204d6d40] Running /usr/bin/env cp /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/assets_manifest_backup as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [204d6d40] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env cp /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206/assets_manifest_backup )
+  INFO [204d6d40] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [1e8af3c3] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1e8af3c3] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206'" 1>&2; false; fi
+ DEBUG [1e8af3c3] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [fb2885af] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [fb2885af] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate )
+  INFO [fb2885af] Finished in 3.321 seconds with exit status 0 (successful).
+  INFO [dd916e2a] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [dd916e2a] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215206 /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current )
+  INFO [dd916e2a] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [6caad650] Running /usr/bin/env mv /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current /home/hosting_patreewigor4/projects/novogodniepodarki as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6caad650] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mv /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current /home/hosting_patreewigor4/projects/novogodniepodarki )
+  INFO [6caad650] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [ff335961] Running /usr/bin/env ls -xtr /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [ff335961] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls -xtr /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+ DEBUG [ff335961] 	20160927111130	20160927111441	20160927114033	20160927114550	20160927201907
+20160927215206
+ DEBUG [ff335961] Finished in 0.064 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on calcium.locum.ru
+  INFO [b9faca0a] Running /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927111130 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b9faca0a] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927111130 )
+  INFO [b9faca0a] Finished in 1.397 seconds with exit status 0 (successful).
+ DEBUG [b4bdab55] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b4bdab55] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases'" 1>&2; false; fi
+ DEBUG [b4bdab55] Finished in 0.068 seconds with exit status 0 (successful).
+  INFO [51ab8116] Running /usr/bin/env echo "Branch master (at d7b41ef3775518c03be8f6a676334c9ccaaa044a) deployed as release 20160927215206 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [51ab8116] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "Branch master (at d7b41ef3775518c03be8f6a676334c9ccaaa044a) deployed as release 20160927215206 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log )
+  INFO [51ab8116] Finished in 0.066 seconds with exit status 0 (successful).
