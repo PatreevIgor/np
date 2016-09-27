@@ -4048,3 +4048,8 @@ Could not update RVM, get some help at #rvm IRC channel at freenode servers.
   INFO [8613f426] Running /usr/bin/env echo "Branch master (at 336611f466ef487a01a113c4f742b00a8402acf8) deployed as release 20160927201907 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log as hosting_patreewigor4@calcium.locum.ru
  DEBUG [8613f426] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "Branch master (at 336611f466ef487a01a113c4f742b00a8402acf8) deployed as release 20160927201907 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log )
   INFO [8613f426] Finished in 0.051 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-28 00:50:58 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [44f62b26] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [44f62b26] Command: [ -d ~/.rvm ]
