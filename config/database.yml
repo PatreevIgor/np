@@ -32,22 +32,22 @@ development:
 #   password: 1
 
 production:
-  adapter: mysql2
-  encoding: utf8
-  database: patreewi_novog58
-  username: patreewi_novog58
-  password: dmRXDf9Ktr
-  host: mysql7.locum.ru
-  socket: /var/run/mysqld/mysqld.sock
-
-
   # adapter: mysql2
   # encoding: utf8
-  # database: db_for_develop
-  # username: root
-  # password: 
-  # host: 127.0.0.1
-  # port: 3306
+  # database: patreewi_novog58
+  # username: patreewi_novog58
+  # password: dmRXDf9Ktr
+  # host: mysql7.locum.ru
+  # socket: /var/run/mysqld/mysqld.sock
+
+
+  adapter: mysql2
+  encoding: utf8
+  database: db_for_develop
+  username: root
+  password: 
+  host: 127.0.0.1
+  port: 3306
 
 
 
