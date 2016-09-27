@@ -4412,3 +4412,167 @@ remote: Compressing objects:   0% (1/540)   [Kremote: Compressing objects:   1
   INFO [51ab8116] Running /usr/bin/env echo "Branch master (at d7b41ef3775518c03be8f6a676334c9ccaaa044a) deployed as release 20160927215206 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log as hosting_patreewigor4@calcium.locum.ru
  DEBUG [51ab8116] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "Branch master (at d7b41ef3775518c03be8f6a676334c9ccaaa044a) deployed as release 20160927215206 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log )
   INFO [51ab8116] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2016-09-28 00:58:08 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [44936aee] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [44936aee] Command: [ -d ~/.rvm ]
+ DEBUG [44936aee] Finished in 19.630 seconds with exit status 1 (failed).
+ DEBUG [7c281a77] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7c281a77] Command: [ -d /usr/local/rvm ]
+ DEBUG [7c281a77] Finished in 7.392 seconds with exit status 0 (successful).
+ DEBUG [c21f3e63] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c21f3e63] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [c21f3e63] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [c21f3e63] Finished in 0.369 seconds with exit status 0 (successful).
+ DEBUG [ba8718b9] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [ba8718b9] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [ba8718b9] 	ruby-2.3.1
+ DEBUG [ba8718b9] Finished in 0.307 seconds with exit status 0 (successful).
+ DEBUG [445642a6] Running /usr/local/rvm/bin/rvm default do ruby --version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [445642a6] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm default do ruby --version )
+ DEBUG [445642a6] 	ruby 2.3.1p112 (2016-04-26 revision 54768) [x86_64-linux]
+ DEBUG [445642a6] Finished in 0.571 seconds with exit status 0 (successful).
+  INFO [25db8fbf] Running /usr/bin/env mkdir -p /tmp as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [25db8fbf] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /tmp )
+  INFO [25db8fbf] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 0.0%
+  INFO Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 100.0%
+  INFO [f233c669] Running /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f233c669] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh )
+  INFO [f233c669] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [4f5de2d1] Running /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [4f5de2d1] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git )
+ DEBUG [4f5de2d1] 	1e5bdbe66af12382c89b229f3bc0abb6794c9228	refs/heads/master
+  INFO [4f5de2d1] Finished in 0.865 seconds with exit status 0 (successful).
+  INFO [fc113059] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [fc113059] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+  INFO [fc113059] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [06e90068] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [06e90068] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets )
+  INFO [06e90068] Finished in 0.070 seconds with exit status 0 (successful).
+ DEBUG [2d8d1a03] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [2d8d1a03] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ]
+ DEBUG [2d8d1a03] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [cd0c699c] Running /usr/bin/env cat /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION 2>/dev/null as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cd0c699c] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env cat /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION 2>/dev/null )
+ DEBUG [cd0c699c] 	d7b41ef3775518c03be8f6a676334c9ccaaa044a
+ DEBUG [cd0c699c] Finished in 0.068 seconds with exit status 0 (successful).
+ DEBUG [8e6f0f36] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8e6f0f36] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ]
+ DEBUG [8e6f0f36] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/hosting_patreewigor4/projects/novogodniepodarki/repo
+ DEBUG [429470f9] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [429470f9] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [429470f9] Finished in 0.076 seconds with exit status 0 (successful).
+  INFO [be8ee9f9] Running /usr/bin/env git remote update --prune as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [be8ee9f9] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [be8ee9f9] 	Fetching origin
+ DEBUG [be8ee9f9] 	
+ DEBUG [be8ee9f9] 	remote: Counting objects: 7, done.[K
+remote: Compressing objects: 100% (1/1)   [Kremote: Compressing objects: 100% (1/1), done.[K
+ DEBUG [be8ee9f9] 	remote: Total 7 (delta 6), reused 7 (delta 6), pack-reused 0[K
+ DEBUG [be8ee9f9] 	Unpacking objects:  14% (1/7)   
+ DEBUG [be8ee9f9] 	Unpacking objects:  28% (2/7)   
+ DEBUG [be8ee9f9] 	Unpacking objects:  42% (3/7)   
+ DEBUG [be8ee9f9] 	Unpacking objects:  57% (4/7)   Unpacking objects:  71% (5/7)   Unpacking objects:  85% (6/7)   
+ DEBUG [be8ee9f9] 	Unpacking objects: 100% (7/7)   Unpacking objects: 100% (7/7), done.
+ DEBUG [be8ee9f9] 	From https://github.com/PatreevIgor/np
+ DEBUG [be8ee9f9] 	
+ DEBUG [be8ee9f9] 	   d7b41ef..1e5bdbe  master     -> master
+ DEBUG [be8ee9f9] 	
+  INFO [be8ee9f9] Finished in 1.072 seconds with exit status 0 (successful).
+ DEBUG [564ff2ff] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [564ff2ff] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [564ff2ff] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [805f82dd] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [805f82dd] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 )
+  INFO [805f82dd] Finished in 0.075 seconds with exit status 0 (successful).
+  INFO [b3de2ea6] Running /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b3de2ea6] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 )
+  INFO [b3de2ea6] Finished in 0.343 seconds with exit status 0 (successful).
+ DEBUG [2eefc7b7] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [2eefc7b7] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [2eefc7b7] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [65bc1cc9] Running /usr/bin/env git rev-list --max-count=1 master as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [65bc1cc9] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [65bc1cc9] 	1e5bdbe66af12382c89b229f3bc0abb6794c9228
+ DEBUG [65bc1cc9] Finished in 0.075 seconds with exit status 0 (successful).
+ DEBUG [cabfb8df] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cabfb8df] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi
+ DEBUG [cabfb8df] Finished in 0.066 seconds with exit status 0 (successful).
+  INFO [cded116d] Running /usr/bin/env echo "1e5bdbe66af12382c89b229f3bc0abb6794c9228" >> REVISION as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cded116d] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "1e5bdbe66af12382c89b229f3bc0abb6794c9228" >> REVISION )
+  INFO [cded116d] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO [c7167864] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c7167864] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public )
+  INFO [c7167864] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [d46c5c41] Running [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d46c5c41] Command: [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets ]
+ DEBUG [d46c5c41] Finished in 0.071 seconds with exit status 1 (failed).
+ DEBUG [aebf5321] Running [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [aebf5321] Command: [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets ]
+ DEBUG [aebf5321] Finished in 0.072 seconds with exit status 0 (successful).
+  INFO [43b96aff] Running /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [43b96aff] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets )
+  INFO [43b96aff] Finished in 0.080 seconds with exit status 0 (successful).
+  INFO [14d3fb04] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [14d3fb04] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets )
+  INFO [14d3fb04] Finished in 0.066 seconds with exit status 0 (successful).
+ DEBUG [8c06531f] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8c06531f] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi
+ DEBUG [8c06531f] Finished in 0.084 seconds with exit status 0 (successful).
+  INFO [18aa2ed8] Running /usr/local/rvm/bin/rvm default do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [18aa2ed8] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm default do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet )
+  INFO [18aa2ed8] Finished in 1.139 seconds with exit status 0 (successful).
+ DEBUG [3dc3e668] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [3dc3e668] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi
+ DEBUG [3dc3e668] Finished in 0.065 seconds with exit status 0 (successful).
+  INFO [9529029b] Running /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [9529029b] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake assets:precompile )
+  INFO [9529029b] Finished in 9.868 seconds with exit status 0 (successful).
+ DEBUG [dfb6b18c] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [dfb6b18c] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi
+ DEBUG [dfb6b18c] Finished in 0.363 seconds with exit status 0 (successful).
+  INFO [1e766137] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/assets_manifest_backup as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1e766137] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/assets_manifest_backup )
+  INFO [1e766137] Finished in 0.069 seconds with exit status 0 (successful).
+ DEBUG [1ddd248c] Running /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest* as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1ddd248c] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest* )
+ DEBUG [1ddd248c] 	/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json
+ DEBUG [1ddd248c] Finished in 0.081 seconds with exit status 0 (successful).
+ DEBUG [34437758] Running /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest* as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [34437758] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest* )
+ DEBUG [34437758] 	/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json
+ DEBUG [34437758] Finished in 0.071 seconds with exit status 0 (successful).
+  INFO [e0a9bb89] Running /usr/bin/env cp /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/assets_manifest_backup as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e0a9bb89] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env cp /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/public/assets/.sprockets-manifest-9ad7781f5dbae35e12abf67abd38a4aa.json /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838/assets_manifest_backup )
+  INFO [e0a9bb89] Finished in 0.070 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [1ed89497] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1ed89497] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838'" 1>&2; false; fi
+ DEBUG [1ed89497] Finished in 0.325 seconds with exit status 0 (successful).
+  INFO [8ca1833e] Running /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8ca1833e] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" RAILS_ENV="production" ; /usr/local/rvm/bin/rvm default do bundle exec rake db:migrate )
+  INFO [8ca1833e] Finished in 3.539 seconds with exit status 0 (successful).
+  INFO [2f131a57] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [2f131a57] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927215838 /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current )
+  INFO [2f131a57] Finished in 0.074 seconds with exit status 0 (successful).
+  INFO [b2af75a4] Running /usr/bin/env mv /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current /home/hosting_patreewigor4/projects/novogodniepodarki as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b2af75a4] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mv /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current /home/hosting_patreewigor4/projects/novogodniepodarki )
+  INFO [b2af75a4] Finished in 0.074 seconds with exit status 0 (successful).
+ DEBUG [66dfdd6d] Running /usr/bin/env ls -xtr /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [66dfdd6d] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls -xtr /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+ DEBUG [66dfdd6d] 	20160927111441	20160927114033	20160927114550	20160927201907	20160927215206
+20160927215838
+ DEBUG [66dfdd6d] Finished in 0.079 seconds with exit status 0 (successful).
+  INFO Keeping 5 of 6 deployed releases on calcium.locum.ru
+  INFO [5788d303] Running /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927111441 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [5788d303] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20160927111441 )
+  INFO [5788d303] Finished in 1.021 seconds with exit status 0 (successful).
+ DEBUG [159aaa34] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [159aaa34] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases'" 1>&2; false; fi
+ DEBUG [159aaa34] Finished in 0.069 seconds with exit status 0 (successful).
+  INFO [c8cacf69] Running /usr/bin/env echo "Branch master (at 1e5bdbe66af12382c89b229f3bc0abb6794c9228) deployed as release 20160927215838 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c8cacf69] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "Branch master (at 1e5bdbe66af12382c89b229f3bc0abb6794c9228) deployed as release 20160927215838 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log )
+  INFO [c8cacf69] Finished in 0.139 seconds with exit status 0 (successful).
