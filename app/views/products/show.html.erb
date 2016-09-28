@@ -75,6 +75,7 @@
     <tr>
       <th>Изображение</th>
       <th>Название</th>
+      <th>Производитель</th>
       <th>Количество</th>
     </tr>
   </thead>
@@ -83,7 +84,8 @@
     <% @product.candies.each do |c| %>
       <tr>
         <td align='center' width="20%"><%= image_tag (c.image), :width => 50, :height => 50 %></td>
-        <td align='center' width="60%"><%= c.title %></td>
+        <td align='center' width="30%"><%= c.title %></td>
+        <td align='center' width="30%"><%= c.manufacturer %></td>
         <td align='center' width="20%"><%= @CandiesProducts.where(product_id: @product.id, candy_id: c.id).first.count %></td>
      </tr>
 <% end %>
@@ -101,7 +103,6 @@
       <th>Изображение</th>
       <th>Название</th>
       <th>Описание</th>
-      <th>Цена</th>
     </tr>
   </thead>
 
@@ -111,7 +112,6 @@
         <td align='center' width="20%"><%= image_tag (c.image), :width => 100, :height => 100 %></td>
         <td align='center' width="30%"><%= c.title %></td>
         <td align='center' width="40%"><%= c.description %></td>
-        <td align='center' width="10%"><%= c.price %></td>
       </tr>
         <% end %>
   </tbody>

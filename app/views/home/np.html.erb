@@ -4,7 +4,7 @@
 <ul class="podarki">
 <% @products.each do |product| %>
 <li>
-        <div class="img"><a href=""><%= image_tag product.image %></a></div>
+        <div class="img"><a href=""><%= image_tag product.image, :width => 200, :height => 200  %></a></div>
         <h4><a href=""><%= product.title %></a></h4>
 
         <div class="cost"><%= product.price %> руб.</div>
