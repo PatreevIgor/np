@@ -1,3 +1,6 @@
+<% if user_signed_in? %>
+ <% if current_user.email == 'patreewigor@yandex.ru' %>
+
   <%= form_for(@candy) do |f| %>
     <% if @candy.errors.any? %>
       <div id="error_explanation">
@@ -29,3 +32,7 @@
       <%= f.submit %>
     </div>
   <% end %>
+
+
+ <% end %>
+<% end %> 

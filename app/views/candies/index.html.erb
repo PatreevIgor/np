@@ -1,3 +1,6 @@
+<% if user_signed_in? %>
+ <% if current_user.email == 'patreewigor@yandex.ru' %>
+
 <p id="notice"><%= notice %></p>
 
 <h1>Listing Candies</h1>
@@ -29,3 +32,7 @@
 <br>
 
 <%= link_to 'New Candy', new_candy_path %>
+
+
+ <% end %>
+<% end %> 

@@ -1,3 +1,7 @@
+<% if user_signed_in? %>
+ <% if current_user.email == 'patreewigor@yandex.ru' %>
+
+
 <%= form_for(@packing) do |f| %>
   <% if @packing.errors.any? %>
     <div id="error_explanation">
@@ -33,3 +37,7 @@
     <%= f.submit %>
   </div>
 <% end %>
+
+
+ <% end %>
+<% end %> 
