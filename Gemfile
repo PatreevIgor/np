@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'devise', '3.5.3'
+
 gem 'capistrano-rbenv', github: "capistrano/rbenv"
 gem 'capistrano'
 gem 'capistrano-rails'
