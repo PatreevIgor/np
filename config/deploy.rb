@@ -16,6 +16,8 @@ unicorn_conf = "/etc/unicorn/#{ application }.#{ login }.rb"
 unicorn_pid = "/var/run/unicorn/#{ $user }/#{ application }.#{ login }.pid"
 unicorn_start_cmd = "(cd #{ deploy_to }/current; rvm use #{ rvm_ruby_string } do bundle exec unicorn_rails -Dc #{ unicorn_conf })"
 
+set :rvm_ruby_version, '2.1.5'
+set :keep_releases, 5
 
 set :application, application
 set :repo_url, 'https://github.com/PatreevIgor/np.git'
