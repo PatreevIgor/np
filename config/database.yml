@@ -38,7 +38,7 @@ production:
   username: patreewi_novog58
   password: dmRXDf9Ktr
   host: mysql7.locum.ru
-  socket: /var/run/mysqld/mysqld.sock
+  # socket: /var/run/mysqld/mysqld.sock
 
 
   # adapter: mysql2
