@@ -1,6 +1,6 @@
 class PackingsController < ApplicationController
   before_action :set_packing, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!, only: [:index, :edit, :update, :destroy]
   # GET /packings
   # GET /packings.json
   def index

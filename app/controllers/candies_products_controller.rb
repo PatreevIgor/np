@@ -1,6 +1,6 @@
 class CandiesProductsController < ApplicationController
   before_action :set_candies_product, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_user!, only: [:show, :index, :edit, :update, :destroy]
   # GET /candies_products
   # GET /candies_products.json
   def index
