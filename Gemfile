@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'devise', '3.5.3'
+gem 'nokogiri', '1.6.2'
 
 gem 'capistrano-rbenv', github: "capistrano/rbenv"
 gem 'capistrano'
