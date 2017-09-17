@@ -6354,3 +6354,29 @@ You have added to the Gemfile:
 
 You have deleted from the Gemfile:
 * sqlite3[0m
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 11:18:15 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [85fb951c] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [85fb951c] Command: [ -d ~/.rvm ]
+ DEBUG [85fb951c] Finished in 8.232 seconds with exit status 1 (failed).
+ DEBUG [5870632d] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [5870632d] Command: [ -d /usr/local/rvm ]
+ DEBUG [5870632d] Finished in 2.198 seconds with exit status 0 (successful).
+ DEBUG [32bf2c46] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [32bf2c46] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 11:18:41 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fcf08e50] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [fcf08e50] Command: [ -d ~/.rvm ]
+ DEBUG [fcf08e50] Finished in 3.962 seconds with exit status 1 (failed).
+ DEBUG [cc6d59f8] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cc6d59f8] Command: [ -d /usr/local/rvm ]
+ DEBUG [cc6d59f8] Finished in 1.912 seconds with exit status 0 (successful).
+ DEBUG [6418efaa] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6418efaa] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [6418efaa] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [6418efaa] Finished in 2.116 seconds with exit status 0 (successful).
+ DEBUG [eb6ca554] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [eb6ca554] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
