@@ -10,7 +10,7 @@ development:
 production:
   adapter: mysql2
   encoding: utf8
-  database: patreewi_novog58
-  username: patreewi_novog58
-  password: dmRXDf9Ktr
+  database: patreewi_novog25
+  username: patreewi_novog25
+  password: 6ZI0OAtMqH
   host: mysql7.locum.ru

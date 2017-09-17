@@ -5684,3 +5684,673 @@ LoadError: cannot load such file -- nokogiri
 /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20161105100043/Rakefile:4:in `<top (required)>'
 /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
  DEBUG [41bc014c] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:35:04 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [97435b45] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [97435b45] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:39:07 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [92d09e32] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [92d09e32] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:39:29 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [4070e871] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [4070e871] Command: [ -d ~/.rvm ]
+ DEBUG [4070e871] Finished in 25.080 seconds with exit status 1 (failed).
+ DEBUG [d7606f32] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d7606f32] Command: [ -d /usr/local/rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:40:44 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9ebc1381] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [9ebc1381] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:47:11 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0ebf4623] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0ebf4623] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:47:43 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [010f3162] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [010f3162] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:47:58 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b67e1b64] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b67e1b64] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:48:05 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [860bab6d] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [860bab6d] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:49:25 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [5ce0ceac] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [5ce0ceac] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:50:23 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [6b5fc0d4] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6b5fc0d4] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:51:17 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9fae6eaf] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [9fae6eaf] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:51:26 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f9e0f1c1] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f9e0f1c1] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 10:53:14 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [ba9472ef] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [ba9472ef] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 11:04:22 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [81b87d08] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [81b87d08] Command: [ -d ~/.rvm ]
+ DEBUG [81b87d08] Finished in 17.438 seconds with exit status 1 (failed).
+ DEBUG [42d06db9] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [42d06db9] Command: [ -d /usr/local/rvm ]
+ DEBUG [42d06db9] Finished in 7.949 seconds with exit status 0 (successful).
+ DEBUG [f16a6f64] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f16a6f64] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [f16a6f64] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [f16a6f64] Finished in 0.411 seconds with exit status 0 (successful).
+ DEBUG [ae5a4342] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [ae5a4342] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [ae5a4342] 	system
+ DEBUG [ae5a4342] Finished in 0.352 seconds with exit status 0 (successful).
+ DEBUG [fb180e2d] Running /usr/local/rvm/bin/rvm 2.1.5 do ruby --version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [fb180e2d] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do ruby --version )
+ DEBUG [fb180e2d] 	ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-linux]
+ DEBUG [fb180e2d] Finished in 0.520 seconds with exit status 0 (successful).
+  INFO [7a41a123] Running /usr/bin/env mkdir -p /tmp as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7a41a123] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /tmp )
+  INFO [7a41a123] Finished in 0.114 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 0.0%
+  INFO Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 100.0%
+  INFO [3a1dd24c] Running /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [3a1dd24c] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh )
+  INFO [3a1dd24c] Finished in 0.119 seconds with exit status 0 (successful).
+  INFO [e00bae26] Running /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e00bae26] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git )
+ DEBUG [e00bae26] 	fb2969f07ca71d35ad3a457aef2ac6e2d3159f99	refs/heads/master
+  INFO [e00bae26] Finished in 1.241 seconds with exit status 0 (successful).
+  INFO [fb660774] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [fb660774] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+  INFO [fb660774] Finished in 0.124 seconds with exit status 0 (successful).
+  INFO [74782d30] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [74782d30] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets )
+  INFO [74782d30] Finished in 0.131 seconds with exit status 0 (successful).
+ DEBUG [d384aedb] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d384aedb] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ]
+ DEBUG [d384aedb] Finished in 0.115 seconds with exit status 1 (failed).
+ DEBUG [7930b2c5] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7930b2c5] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ]
+ DEBUG [7930b2c5] Finished in 0.146 seconds with exit status 1 (failed).
+ DEBUG [4424e0ac] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [4424e0ac] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki'" 1>&2; false; fi
+ DEBUG [4424e0ac] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [78544979] Running /usr/bin/env git clone --mirror https://github.com/PatreevIgor/np.git /home/hosting_patreewigor4/projects/novogodniepodarki/repo as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [78544979] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git clone --mirror https://github.com/PatreevIgor/np.git /home/hosting_patreewigor4/projects/novogodniepodarki/repo )
+ DEBUG [78544979] 	Cloning into bare repository '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'...
+ DEBUG [78544979] 	remote: Counting objects: 4886, done.[K
+ DEBUG [78544979] 	Receiving objects:   0% (1/4886)   
+ DEBUG [78544979] 	Receiving objects:   1% (49/4886), 212.01 KiB | 383.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:   1% (74/4886), 1.03 MiB | 960.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:   1% (97/4886), 2.56 MiB | 1.21 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   2% (98/4886), 2.56 MiB | 1.21 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   2% (99/4886), 3.38 MiB | 1.29 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   2% (103/4886), 4.73 MiB | 1.30 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   3% (147/4886), 5.39 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   4% (196/4886), 5.39 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   5% (245/4886), 5.39 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   6% (294/4886), 5.39 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   7% (343/4886), 5.39 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   8% (391/4886), 5.93 MiB | 1.28 MiB/s   
+ DEBUG [78544979] 	Receiving objects:   9% (440/4886), 5.93 MiB | 1.28 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  10% (489/4886), 5.93 MiB | 1.28 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  11% (538/4886), 5.93 MiB | 1.28 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  11% (570/4886), 5.93 MiB | 1.28 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  12% (587/4886), 6.49 MiB | 1.37 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  13% (636/4886), 6.49 MiB | 1.37 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  14% (685/4886), 6.49 MiB | 1.37 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  15% (733/4886), 6.49 MiB | 1.37 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  16% (782/4886), 6.49 MiB | 1.37 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  17% (831/4886), 6.49 MiB | 1.37 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  18% (880/4886), 6.49 MiB | 1.37 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  19% (929/4886), 7.02 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  20% (978/4886), 7.02 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  21% (1027/4886), 7.02 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  21% (1058/4886), 7.02 MiB | 1.31 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  22% (1075/4886), 7.46 MiB | 1.24 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  23% (1124/4886), 7.46 MiB | 1.24 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  24% (1173/4886), 7.46 MiB | 1.24 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  25% (1222/4886), 7.46 MiB | 1.24 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  26% (1271/4886), 7.46 MiB | 1.24 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  27% (1320/4886), 7.46 MiB | 1.24 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  28% (1369/4886), 7.46 MiB | 1.24 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  29% (1417/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  30% (1466/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  31% (1515/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  32% (1564/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  33% (1613/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  34% (1662/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  35% (1711/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  36% (1759/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  37% (1808/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  38% (1857/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  38% (1900/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  39% (1906/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  40% (1955/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  41% (2004/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  42% (2053/4886), 7.94 MiB | 1.17 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  43% (2101/4886), 8.43 MiB | 1.10 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  44% (2150/4886), 8.43 MiB | 1.10 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  45% (2199/4886), 8.43 MiB | 1.10 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  46% (2248/4886), 8.43 MiB | 1.10 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  47% (2297/4886), 8.43 MiB | 1.10 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  48% (2346/4886), 8.43 MiB | 1.10 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  49% (2395/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  50% (2443/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  51% (2492/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  52% (2541/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  53% (2590/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  54% (2639/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  55% (2688/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  56% (2737/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  57% (2786/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  58% (2834/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  59% (2883/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  60% (2932/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  61% (2981/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  62% (3030/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  63% (3079/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  64% (3128/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  65% (3176/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  66% (3225/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  67% (3274/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  68% (3323/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  69% (3372/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  70% (3421/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  71% (3470/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  72% (3518/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  73% (3567/4886), 8.93 MiB | 1.06 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  74% (3616/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  75% (3665/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  76% (3714/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  77% (3763/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  78% (3812/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  79% (3860/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  80% (3909/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  81% (3958/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  82% (4007/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  83% (4056/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  84% (4105/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  85% (4154/4886), 9.43 MiB | 1.02 MiB/s   
+ DEBUG [78544979] 	Receiving objects:  86% (4202/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  87% (4251/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  88% (4300/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  89% (4349/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  90% (4398/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  91% (4447/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  92% (4496/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  93% (4544/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  94% (4593/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  95% (4642/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  96% (4691/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  97% (4740/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects:  98% (4789/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	remote: Total 4886 (delta 0), reused 0 (delta 0), pack-reused 4886[K
+ DEBUG [78544979] 	Receiving objects:  99% (4838/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects: 100% (4886/4886), 9.93 MiB | 1010.00 KiB/s   
+ DEBUG [78544979] 	Receiving objects: 100% (4886/4886), 10.08 MiB | 1002.00 KiB/s, done.
+ DEBUG [78544979] 	
+ DEBUG [78544979] 	Resolving deltas:   0% (0/1127)   
+ DEBUG [78544979] 	Resolving deltas:   2% (31/1127)   
+ DEBUG [78544979] 	Resolving deltas:   3% (37/1127)   
+ DEBUG [78544979] 	Resolving deltas:   4% (48/1127)   
+ DEBUG [78544979] 	Resolving deltas:   5% (57/1127)   
+ DEBUG [78544979] 	Resolving deltas:   6% (70/1127)   
+ DEBUG [78544979] 	Resolving deltas:   7% (80/1127)   
+ DEBUG [78544979] 	Resolving deltas:   8% (96/1127)   
+ DEBUG [78544979] 	Resolving deltas:   9% (109/1127)   
+ DEBUG [78544979] 	Resolving deltas:  10% (115/1127)   
+ DEBUG [78544979] 	Resolving deltas:  11% (128/1127)   
+ DEBUG [78544979] 	Resolving deltas:  12% (138/1127)   
+ DEBUG [78544979] 	Resolving deltas:  13% (151/1127)   
+ DEBUG [78544979] 	Resolving deltas:  14% (158/1127)   
+ DEBUG [78544979] 	Resolving deltas:  15% (173/1127)   
+ DEBUG [78544979] 	Resolving deltas:  16% (183/1127)   
+ DEBUG [78544979] 	Resolving deltas:  17% (193/1127)   
+ DEBUG [78544979] 	Resolving deltas:  18% (205/1127)   
+ DEBUG [78544979] 	Resolving deltas:  19% (215/1127)   
+ DEBUG [78544979] 	Resolving deltas:  26% (303/1127)   
+ DEBUG [78544979] 	Resolving deltas:  27% (308/1127)   
+ DEBUG [78544979] 	Resolving deltas:  29% (330/1127)   
+ DEBUG [78544979] 	Resolving deltas:  30% (345/1127)   
+ DEBUG [78544979] 	Resolving deltas:  31% (354/1127)   
+ DEBUG [78544979] 	Resolving deltas:  34% (394/1127)   
+ DEBUG [78544979] 	Resolving deltas:  35% (395/1127)   
+ DEBUG [78544979] 	Resolving deltas:  36% (409/1127)   
+ DEBUG [78544979] 	Resolving deltas:  37% (418/1127)   
+ DEBUG [78544979] 	Resolving deltas:  38% (429/1127)   
+ DEBUG [78544979] 	Resolving deltas:  39% (442/1127)   
+ DEBUG [78544979] 	Resolving deltas:  40% (451/1127)   Resolving deltas:  41% (471/1127)   Resolving deltas:  42% (476/1127)   Resolving deltas:  43% (488/1127)   Resolving deltas:  44% (497/1127)   Resolving deltas:  45% (509/1127)   Resolving deltas:  46% (527/1127)   Resolving deltas:  47% (530/1127)   Resolving deltas:  48% (542/1127)   Resolving deltas:  49% (559/1127)   Resolving deltas:  50% (564/1127)   Resolving deltas:  51% (578/1127)   Resolving deltas:  52% (591/1127)   Resolving deltas:  53% (598/1127)   Resolving deltas:  54% (609/1127)   Resolving deltas:  55% (620/1127)   Resolving deltas:  56% (636/1127)   
+ DEBUG [78544979] 	Resolving deltas:  63% (714/1127)   
+ DEBUG [78544979] 	Resolving deltas:  64% (730/1127)   
+ DEBUG [78544979] 	Resolving deltas:  65% (733/1127)   
+ DEBUG [78544979] 	Resolving deltas:  66% (745/1127)   
+ DEBUG [78544979] 	Resolving deltas:  67% (756/1127)   
+ DEBUG [78544979] 	Resolving deltas:  68% (769/1127)   
+ DEBUG [78544979] 	Resolving deltas:  69% (782/1127)   
+ DEBUG [78544979] 	Resolving deltas:  71% (803/1127)   
+ DEBUG [78544979] 	Resolving deltas:  72% (812/1127)   
+ DEBUG [78544979] 	Resolving deltas:  73% (823/1127)   
+ DEBUG [78544979] 	Resolving deltas:  74% (835/1127)   
+ DEBUG [78544979] 	Resolving deltas:  75% (846/1127)   
+ DEBUG [78544979] 	Resolving deltas:  76% (857/1127)   
+ DEBUG [78544979] 	Resolving deltas:  77% (868/1127)   
+ DEBUG [78544979] 	Resolving deltas:  78% (882/1127)   
+ DEBUG [78544979] 	Resolving deltas:  79% (891/1127)   
+ DEBUG [78544979] 	Resolving deltas:  80% (902/1127)   
+ DEBUG [78544979] 	Resolving deltas:  81% (913/1127)   
+ DEBUG [78544979] 	Resolving deltas:  82% (925/1127)   
+ DEBUG [78544979] 	Resolving deltas:  84% (947/1127)   
+ DEBUG [78544979] 	Resolving deltas:  85% (958/1127)   
+ DEBUG [78544979] 	Resolving deltas:  86% (970/1127)   
+ DEBUG [78544979] 	Resolving deltas:  87% (981/1127)   
+ DEBUG [78544979] 	Resolving deltas:  88% (992/1127)   
+ DEBUG [78544979] 	Resolving deltas:  89% (1007/1127)   
+ DEBUG [78544979] 	Resolving deltas:  90% (1016/1127)   
+ DEBUG [78544979] 	Resolving deltas:  91% (1027/1127)   
+ DEBUG [78544979] 	Resolving deltas:  92% (1037/1127)   
+ DEBUG [78544979] 	Resolving deltas:  93% (1049/1127)   
+ DEBUG [78544979] 	Resolving deltas:  94% (1061/1127)   
+ DEBUG [78544979] 	Resolving deltas:  95% (1071/1127)   
+ DEBUG [78544979] 	Resolving deltas:  96% (1082/1127)   
+ DEBUG [78544979] 	Resolving deltas:  97% (1094/1127)   
+ DEBUG [78544979] 	Resolving deltas:  98% (1107/1127)   
+ DEBUG [78544979] 	Resolving deltas:  99% (1116/1127)   
+ DEBUG [78544979] 	Resolving deltas: 100% (1127/1127)   Resolving deltas: 100% (1127/1127), done.
+ DEBUG [78544979] 	Checking connectivity... 
+ DEBUG [78544979] 	done.
+  INFO [78544979] Finished in 10.470 seconds with exit status 0 (successful).
+ DEBUG [0abea12e] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0abea12e] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [0abea12e] Finished in 0.113 seconds with exit status 0 (successful).
+  INFO [45f6605f] Running /usr/bin/env git remote update --prune as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [45f6605f] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [45f6605f] 	Fetching origin
+  INFO [45f6605f] Finished in 0.946 seconds with exit status 0 (successful).
+ DEBUG [685d639b] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [685d639b] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [685d639b] Finished in 0.206 seconds with exit status 0 (successful).
+  INFO [b6fef945] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b6fef945] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 )
+  INFO [b6fef945] Finished in 0.155 seconds with exit status 0 (successful).
+  INFO [3580e468] Running /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [3580e468] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 )
+  INFO [3580e468] Finished in 0.460 seconds with exit status 0 (successful).
+ DEBUG [ee7ef26b] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [ee7ef26b] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [ee7ef26b] Finished in 0.112 seconds with exit status 0 (successful).
+ DEBUG [cc117c61] Running /usr/bin/env git rev-list --max-count=1 master as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cc117c61] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [cc117c61] 	fb2969f07ca71d35ad3a457aef2ac6e2d3159f99
+ DEBUG [cc117c61] Finished in 0.092 seconds with exit status 0 (successful).
+ DEBUG [dffec50d] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [dffec50d] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451'" 1>&2; false; fi
+ DEBUG [dffec50d] Finished in 0.134 seconds with exit status 0 (successful).
+  INFO [7a0648ed] Running /usr/bin/env echo "fb2969f07ca71d35ad3a457aef2ac6e2d3159f99" >> REVISION as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7a0648ed] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "fb2969f07ca71d35ad3a457aef2ac6e2d3159f99" >> REVISION )
+  INFO [7a0648ed] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [1e8d31aa] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1e8d31aa] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public )
+  INFO [1e8d31aa] Finished in 0.096 seconds with exit status 0 (successful).
+ DEBUG [4dad318e] Running [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [4dad318e] Command: [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets ]
+ DEBUG [4dad318e] Finished in 0.093 seconds with exit status 1 (failed).
+ DEBUG [b64998a2] Running [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b64998a2] Command: [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets ]
+ DEBUG [b64998a2] Finished in 0.107 seconds with exit status 0 (successful).
+  INFO [254681e1] Running /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [254681e1] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets )
+  INFO [254681e1] Finished in 0.102 seconds with exit status 0 (successful).
+  INFO [6673fcee] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6673fcee] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/public/assets )
+  INFO [6673fcee] Finished in 0.123 seconds with exit status 0 (successful).
+ DEBUG [8f20b790] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8f20b790] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451'" 1>&2; false; fi
+ DEBUG [8f20b790] Finished in 0.202 seconds with exit status 0 (successful).
+ DEBUG [73b58492] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle check --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [73b58492] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle check --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle )
+ DEBUG [73b58492] 	[33mWarning: the running version of Bundler is older than the version that created the lockfile. We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+[0m
+ DEBUG [73b58492] 	[31mgit://github.com/capistrano/rbenv.git (at master) is not yet checked out. Run
+`bundle install` first.[0m
+ DEBUG [73b58492] Finished in 1.023 seconds with exit status 11 (failed).
+  INFO [dcfa08ac] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [dcfa08ac] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet )
+ DEBUG [dcfa08ac] 	Building nokogiri using packaged libraries.
+ DEBUG [dcfa08ac] 	Building libxml2-2.8.0 for nokogiri with the following patches applied:
+ DEBUG [dcfa08ac] 		- 0001-Fix-parser-local-buffers-size-problems.patch
+ DEBUG [dcfa08ac] 		- 0002-Fix-entities-local-buffers-size-problems.patch
+ DEBUG [dcfa08ac] 		- 0003-Fix-an-error-in-previous-commit.patch
+ DEBUG [dcfa08ac] 		- 0004-Fix-potential-out-of-bound-access.patch
+ DEBUG [dcfa08ac] 		- 0005-Detect-excessive-entities-expansion-upon-replacement.patch
+	- 0006-Do-not-fetch-external-parsed-entities.patch
+ DEBUG [dcfa08ac] 		- 0007-Enforce-XML_PARSER_EOF-state-handling-through-the-pa.patch
+ DEBUG [dcfa08ac] 		- 0008-Improve-handling-of-xmlStopParser.patch
+ DEBUG [dcfa08ac] 		- 0009-Fix-a-couple-of-return-without-value.patch
+ DEBUG [dcfa08ac] 		- 0010-Keep-non-significant-blanks-node-in-HTML-parser.patch
+ DEBUG [dcfa08ac] 		- 0011-Do-not-fetch-external-parameter-entities.patch
+ DEBUG [dcfa08ac] 	************************************************************************
+IMPORTANT!  Nokogiri builds and uses a packaged version of libxml2.
+
+If this is a concern for you and you want to use the system library
+instead, abort this installation process and reinstall nokogiri as
+follows:
+
+    gem install nokogiri -- --use-system-libraries
+
+If you are using Bundler, tell it to use the option:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+ DEBUG [dcfa08ac] 	
+However, note that nokogiri does not necessarily support all versions
+of libxml2.
+
+For example, libxml2-2.9.0 and higher are currently known to be broken
+and thus unsupported by nokogiri, due to compatibility problems and
+XPath optimization bugs.
+ DEBUG [dcfa08ac] 	************************************************************************
+ DEBUG [dcfa08ac] 	Building libxslt-1.1.28 for nokogiri with the following patches applied:
+ DEBUG [dcfa08ac] 		- 0001-Adding-doc-update-related-to-1.1.28.patch
+ DEBUG [dcfa08ac] 		- 0002-Fix-a-couple-of-places-where-f-printf-parameters-wer.patch
+ DEBUG [dcfa08ac] 		- 0003-Initialize-pseudo-random-number-generator-with-curre.patch
+ DEBUG [dcfa08ac] 		- 0004-EXSLT-function-str-replace-is-broken-as-is.patch
+ DEBUG [dcfa08ac] 		- 0006-Fix-str-padding-to-work-with-UTF-8-strings.patch
+ DEBUG [dcfa08ac] 		- 0007-Separate-function-for-predicate-matching-in-patterns.patch
+ DEBUG [dcfa08ac] 		- 0008-Fix-direct-pattern-matching.patch
+ DEBUG [dcfa08ac] 		- 0009-Fix-certain-patterns-with-predicates.patch
+ DEBUG [dcfa08ac] 		- 0010-Fix-handling-of-UTF-8-strings-in-EXSLT-crypto-module.patch
+ DEBUG [dcfa08ac] 		- 0013-Memory-leak-in-xsltCompileIdKeyPattern-error-path.patch
+ DEBUG [dcfa08ac] 		- 0014-Fix-for-bug-436589.patch
+ DEBUG [dcfa08ac] 		- 0015-Fix-mkdir-for-mingw.patch
+ DEBUG [dcfa08ac] 	************************************************************************
+IMPORTANT!  Nokogiri builds and uses a packaged version of libxslt.
+
+If this is a concern for you and you want to use the system library
+instead, abort this installation process and reinstall nokogiri as
+follows:
+
+    gem install nokogiri -- --use-system-libraries
+
+If you are using Bundler, tell it to use the option:
+
+    bundle config build.nokogiri --use-system-libraries
+    bundle install
+ DEBUG [dcfa08ac] 	************************************************************************
+  INFO [dcfa08ac] Finished in 160.779 seconds with exit status 0 (successful).
+ DEBUG [de8bfe43] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [de8bfe43] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451'" 1>&2; false; fi
+ DEBUG [de8bfe43] Finished in 0.639 seconds with exit status 0 (successful).
+  INFO [b3e8169e] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle exec rake assets:precompile as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b3e8169e] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" RAILS_ENV="production" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle exec rake assets:precompile )
+ DEBUG [b3e8169e] 	rake aborted!
+ DEBUG [b3e8169e] 	Gem::LoadError: Specified 'mysql2' for database adapter, but the gem is not loaded. Add `gem 'mysql2'` to your Gemfile (and ensure its version is at the minimum required by ActiveRecord).
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:177:in `rescue in spec'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:174:in `spec'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/devise-3.5.3/lib/devise/orm/active_record.rb:3:in `<top (required)>'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/config/initializers/devise.rb:24:in `block in <top (required)>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/devise-3.5.3/lib/devise.rb:282:in `setup'
+/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/config/initializers/devise.rb:3:in `<top (required)>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `block in load'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:652:in `block in load_config_initializer'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/notifications.rb:166:in `instrument'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:651:in `load_config_initializer'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:615:in `each'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:615:in `block in <class:Engine>'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `instance_exec'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `run'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:55:in `block in run_initializers'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:44:in `each'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:44:in `tsort_each_child'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:54:in `run_initializers'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:352:in `initialize!'
+/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/config/environment.rb:5:in `<top (required)>'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:328:in `require_environment!'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:443:in `block in run_tasks_blocks'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/sprockets-rails-3.2.0/lib/sprockets/rails/task.rb:62:in `block (2 levels) in define'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+ DEBUG [b3e8169e] 	Gem::LoadError: mysql2 is not part of the bundle. Add it to Gemfile.
+ DEBUG [b3e8169e] 	/usr/local/rvm/gems/ruby-2.1.5/gems/bundler-1.10.2/lib/bundler/rubygems_integration.rb:290:in `block in replace_gem'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/mysql2_adapter.rb:3:in `<top (required)>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_adapters/connection_specification.rb:175:in `spec'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/connection_handling.rb:50:in `establish_connection'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/railtie.rb:120:in `block (2 levels) in <class:Railtie>'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `instance_eval'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:38:in `execute_hook'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:45:in `block in run_load_hooks'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `each'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/lazy_load_hooks.rb:44:in `run_load_hooks'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:316:in `<module:ActiveRecord>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activerecord-4.2.0/lib/active_record/base.rb:26:in `<top (required)>'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/devise-3.5.3/lib/devise/orm/active_record.rb:3:in `<top (required)>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/config/initializers/devise.rb:24:in `block in <top (required)>'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/devise-3.5.3/lib/devise.rb:282:in `setup'
+/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/config/initializers/devise.rb:3:in `<top (required)>'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:2
+ DEBUG [b3e8169e] 	68:in `block in load'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:268:in `load'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:652:in `block in load_config_initializer'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/notifications.rb:166:in `instrument'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:651:in `load_config_initializer'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:616:in `block (2 levels) in <class:Engine>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:615:in `each'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/engine.rb:615:in `block in <class:Engine>'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `instance_exec'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:30:in `run'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:55:in `block in run_initializers'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:44:in `each'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:44:in `tsort_each_child'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/initializable.rb:54:in `run_initializers'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:352:in `initialize!'
+/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917080451/config/environment.rb:5:in `<top (required)>'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `block in require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:240:in `load_dependency'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/activesupport-4.2.0/lib/active_support/dependencies.rb:274:in `require'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:328:in `require_environment!'
+ DEBUG [b3e8169e] 	
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/railties-4.2.0/lib/rails/application.rb:443:in `block in run_tasks_blocks'
+ DEBUG [b3e8169e] 	/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/sprockets-rails-3.2.0/lib/sprockets/rails/task.rb:62:in `block (2 levels) in define'
+/home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle/ruby/2.1.0/gems/rake-11.3.0/exe/rake:27:in `<top (required)>'
+ DEBUG [b3e8169e] 	
+ DEBUG [b3e8169e] 	Tasks: TOP => environment
+ DEBUG [b3e8169e] 	(See full trace by running task with --trace)
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 11:14:49 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e5de22f9] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e5de22f9] Command: [ -d ~/.rvm ]
+ DEBUG [e5de22f9] Finished in 10.444 seconds with exit status 1 (failed).
+ DEBUG [6ff4c86d] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6ff4c86d] Command: [ -d /usr/local/rvm ]
+ DEBUG [6ff4c86d] Finished in 4.153 seconds with exit status 0 (successful).
+ DEBUG [72677f99] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [72677f99] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [72677f99] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [72677f99] Finished in 0.371 seconds with exit status 0 (successful).
+ DEBUG [0c660e2e] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0c660e2e] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [0c660e2e] 	system
+ DEBUG [0c660e2e] Finished in 0.403 seconds with exit status 0 (successful).
+ DEBUG [8e071337] Running /usr/local/rvm/bin/rvm 2.1.5 do ruby --version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8e071337] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do ruby --version )
+ DEBUG [8e071337] 	ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-linux]
+ DEBUG [8e071337] Finished in 0.594 seconds with exit status 0 (successful).
+  INFO [1283a201] Running /usr/bin/env mkdir -p /tmp as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1283a201] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /tmp )
+  INFO [1283a201] Finished in 0.162 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 0.0%
+  INFO Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 100.0%
+  INFO [7478e98b] Running /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7478e98b] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh )
+  INFO [7478e98b] Finished in 0.120 seconds with exit status 0 (successful).
+  INFO [2c47c771] Running /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [2c47c771] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git )
+ DEBUG [2c47c771] 	0e25c5fff4aeb53eeb8644321579be2d364fe77d	refs/heads/master
+  INFO [2c47c771] Finished in 0.876 seconds with exit status 0 (successful).
+  INFO [807c9ac4] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [807c9ac4] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+  INFO [807c9ac4] Finished in 0.117 seconds with exit status 0 (successful).
+  INFO [986fafd4] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [986fafd4] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets )
+  INFO [986fafd4] Finished in 0.104 seconds with exit status 0 (successful).
+ DEBUG [f79246ba] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f79246ba] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ]
+ DEBUG [f79246ba] Finished in 0.105 seconds with exit status 1 (failed).
+ DEBUG [7b31c539] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7b31c539] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ]
+ DEBUG [7b31c539] Finished in 0.141 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/hosting_patreewigor4/projects/novogodniepodarki/repo
+ DEBUG [050132d9] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [050132d9] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [050132d9] Finished in 0.103 seconds with exit status 0 (successful).
+  INFO [036f8a2b] Running /usr/bin/env git remote update --prune as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [036f8a2b] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [036f8a2b] 	Fetching origin
+ DEBUG [036f8a2b] 	remote: Counting objects: 4, done.[K
+ DEBUG [036f8a2b] 	remote: Total 4 (delta 3), reused 4 (delta 3), pack-reused 0[K
+ DEBUG [036f8a2b] 	Unpacking objects:  25% (1/4)   
+ DEBUG [036f8a2b] 	Unpacking objects:  50% (2/4)   
+ DEBUG [036f8a2b] 	Unpacking objects:  75% (3/4)   
+ DEBUG [036f8a2b] 	Unpacking objects: 100% (4/4)   Unpacking objects: 100% (4/4), done.
+ DEBUG [036f8a2b] 	From https://github.com/PatreevIgor/np
+ + fb2969f...0e25c5f master     -> master  (forced update)
+  INFO [036f8a2b] Finished in 1.145 seconds with exit status 0 (successful).
+ DEBUG [7c0985f7] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7c0985f7] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [7c0985f7] Finished in 0.147 seconds with exit status 0 (successful).
+  INFO [43016ce1] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [43016ce1] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507 )
+  INFO [43016ce1] Finished in 0.137 seconds with exit status 0 (successful).
+  INFO [4ac80fa1] Running /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [4ac80fa1] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507 )
+  INFO [4ac80fa1] Finished in 0.422 seconds with exit status 0 (successful).
+ DEBUG [cba9e996] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cba9e996] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [cba9e996] Finished in 0.135 seconds with exit status 0 (successful).
+ DEBUG [970fea36] Running /usr/bin/env git rev-list --max-count=1 master as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [970fea36] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [970fea36] 	0e25c5fff4aeb53eeb8644321579be2d364fe77d
+ DEBUG [970fea36] Finished in 0.104 seconds with exit status 0 (successful).
+ DEBUG [65083179] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [65083179] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507'" 1>&2; false; fi
+ DEBUG [65083179] Finished in 0.100 seconds with exit status 0 (successful).
+  INFO [60d06cd7] Running /usr/bin/env echo "0e25c5fff4aeb53eeb8644321579be2d364fe77d" >> REVISION as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [60d06cd7] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "0e25c5fff4aeb53eeb8644321579be2d364fe77d" >> REVISION )
+  INFO [60d06cd7] Finished in 0.096 seconds with exit status 0 (successful).
+  INFO [55e3ba1d] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [55e3ba1d] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public )
+  INFO [55e3ba1d] Finished in 0.115 seconds with exit status 0 (successful).
+ DEBUG [74da5733] Running [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [74da5733] Command: [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets ]
+ DEBUG [74da5733] Finished in 0.133 seconds with exit status 1 (failed).
+ DEBUG [321c6039] Running [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [321c6039] Command: [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets ]
+ DEBUG [321c6039] Finished in 0.115 seconds with exit status 0 (successful).
+  INFO [1758f5d6] Running /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [1758f5d6] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets )
+  INFO [1758f5d6] Finished in 0.109 seconds with exit status 0 (successful).
+  INFO [e7fb330c] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e7fb330c] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507/public/assets )
+  INFO [e7fb330c] Finished in 0.105 seconds with exit status 0 (successful).
+ DEBUG [0a8f0799] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0a8f0799] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507'" 1>&2; false; fi
+ DEBUG [0a8f0799] Finished in 0.101 seconds with exit status 0 (successful).
+ DEBUG [72181ab8] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle check --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [72181ab8] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle check --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle )
+ DEBUG [72181ab8] 	[33mWarning: the running version of Bundler is older than the version that created the lockfile. We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+[0m
+ DEBUG [72181ab8] 	Resolving dependencies...
+ DEBUG [72181ab8] 	
+ DEBUG [72181ab8] 	[31mThe following gems are missing[0m
+ DEBUG [72181ab8] 	[31m * debug_inspector (0.0.2)[0m
+[31m * binding_of_caller (0.7.2)[0m
+ DEBUG [72181ab8] 	[31m * byebug (9.0.6)[0m
+ DEBUG [72181ab8] 	[31m * spring (2.0.0)[0m
+ DEBUG [72181ab8] 	[31m * web-console (2.3.0)[0m
+ DEBUG [72181ab8] 	[33mInstall missing gems with `bundle install`[0m
+ DEBUG [72181ab8] Finished in 1.356 seconds with exit status 1 (failed).
+  INFO [2ee2f057] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [2ee2f057] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917081507 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet )
+ DEBUG [2ee2f057] 	[31mYou are trying to install in deployment mode after changing
+your Gemfile. Run `bundle install` elsewhere and add the
+updated Gemfile.lock to version control.
+
+You have added to the Gemfile:
+* mysql2 (~> 0.3.18)
+
+You have deleted from the Gemfile:
+* sqlite3[0m
