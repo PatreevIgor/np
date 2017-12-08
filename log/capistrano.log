@@ -6380,3 +6380,438 @@ You have deleted from the Gemfile:
  DEBUG [6418efaa] Finished in 2.116 seconds with exit status 0 (successful).
  DEBUG [eb6ca554] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
  DEBUG [eb6ca554] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 12:16:02 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f7a46119] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f7a46119] Command: [ -d ~/.rvm ]
+ DEBUG [f7a46119] Finished in 32.902 seconds with exit status 1 (failed).
+ DEBUG [60ebf307] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [60ebf307] Command: [ -d /usr/local/rvm ]
+ DEBUG [60ebf307] Finished in 2.477 seconds with exit status 0 (successful).
+ DEBUG [4c4f0625] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [4c4f0625] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [4c4f0625] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [4c4f0625] Finished in 8.081 seconds with exit status 0 (successful).
+ DEBUG [8614d72f] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8614d72f] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 12:16:50 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0a1a855c] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0a1a855c] Command: [ -d ~/.rvm ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-09-17 12:17:08 +0300 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [19ee94af] Running [ -d ~/.rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [19ee94af] Command: [ -d ~/.rvm ]
+ DEBUG [19ee94af] Finished in 2.723 seconds with exit status 1 (failed).
+ DEBUG [7649f68f] Running [ -d /usr/local/rvm ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7649f68f] Command: [ -d /usr/local/rvm ]
+ DEBUG [7649f68f] Finished in 4.068 seconds with exit status 0 (successful).
+ DEBUG [870087eb] Running /usr/local/rvm/bin/rvm version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [870087eb] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm version )
+ DEBUG [870087eb] 	rvm 1.25.34 (latest-1.25) by Wayne E. Seguin <wayneeseguin@gmail.com>, Michal Papis <mpapis@gmail.com> [https://rvm.io/]
+ DEBUG [870087eb] Finished in 5.271 seconds with exit status 0 (successful).
+ DEBUG [b510e1e3] Running /usr/local/rvm/bin/rvm current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b510e1e3] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm current )
+ DEBUG [b510e1e3] 	system
+ DEBUG [b510e1e3] Finished in 23.280 seconds with exit status 0 (successful).
+ DEBUG [82e21344] Running /usr/local/rvm/bin/rvm 2.1.5 do ruby --version as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [82e21344] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do ruby --version )
+ DEBUG [82e21344] 	ruby 2.1.5p273 (2014-11-13 revision 48405) [x86_64-linux]
+ DEBUG [82e21344] Finished in 0.863 seconds with exit status 0 (successful).
+  INFO [5616b9ed] Running /usr/bin/env mkdir -p /tmp as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [5616b9ed] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /tmp )
+  INFO [5616b9ed] Finished in 0.128 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 0.0%
+  INFO Uploading /tmp/git-ssh-novogodniepodarki-production-patron.sh 100.0%
+  INFO [db9c491b] Running /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [db9c491b] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env chmod 700 /tmp/git-ssh-novogodniepodarki-production-patron.sh )
+  INFO [db9c491b] Finished in 0.276 seconds with exit status 0 (successful).
+  INFO [e84919b2] Running /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e84919b2] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git ls-remote --heads https://github.com/PatreevIgor/np.git )
+ DEBUG [e84919b2] 	ed23070c77cf4674d662307509e0e9a28dced7a6	refs/heads/master
+  INFO [e84919b2] Finished in 1.049 seconds with exit status 0 (successful).
+  INFO [83fd35b5] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [83fd35b5] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+  INFO [83fd35b5] Finished in 0.281 seconds with exit status 0 (successful).
+  INFO [9c12eb3e] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [9c12eb3e] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets )
+  INFO [9c12eb3e] Finished in 0.333 seconds with exit status 0 (successful).
+ DEBUG [59161e41] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [59161e41] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/current/REVISION ]
+ DEBUG [59161e41] Finished in 0.277 seconds with exit status 1 (failed).
+ DEBUG [271745f6] Running [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [271745f6] Command: [ -f /home/hosting_patreewigor4/projects/novogodniepodarki/repo/HEAD ]
+ DEBUG [271745f6] Finished in 0.355 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /home/hosting_patreewigor4/projects/novogodniepodarki/repo
+ DEBUG [c91a1cdd] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c91a1cdd] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [c91a1cdd] Finished in 0.287 seconds with exit status 0 (successful).
+  INFO [a3ce2d52] Running /usr/bin/env git remote update --prune as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [a3ce2d52] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [a3ce2d52] 	Fetching origin
+ DEBUG [a3ce2d52] 	remote: Counting objects: 12, done.[K
+remote: Compressing objects:  16% (1/6)   [Kremote: Compressing objects:  33% (2/6)   [K
+ DEBUG [a3ce2d52] 	remote: Compressing objects:  50% (3/6)   [Kremote: Compressing objects:  66% (4/6)   [Kremote: Compressing objects:  83% (5/6)   [Kremote: Compressing objects: 100% (6/6)   [K
+ DEBUG [a3ce2d52] 	remote: Compressing objects: 100% (6/6), done.[K
+ DEBUG [a3ce2d52] 	remote: Total 12 (delta 10), reused 8 (delta 6), pack-reused 0[K
+ DEBUG [a3ce2d52] 	Unpacking objects:   8% (1/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  16% (2/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  25% (3/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  33% (4/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  41% (5/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  50% (6/12)   Unpacking objects:  58% (7/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  66% (8/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  75% (9/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  83% (10/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects:  91% (11/12)   
+ DEBUG [a3ce2d52] 	Unpacking objects: 100% (12/12)   Unpacking objects: 100% (12/12), done.
+ DEBUG [a3ce2d52] 	From https://github.com/PatreevIgor/np
+ + 0e25c5f...ed23070 master     -> master  (forced update)
+  INFO [a3ce2d52] Finished in 1.433 seconds with exit status 0 (successful).
+ DEBUG [e2c2a65e] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [e2c2a65e] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [e2c2a65e] Finished in 0.171 seconds with exit status 0 (successful).
+  INFO [f18e6ac6] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f18e6ac6] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 )
+  INFO [f18e6ac6] Finished in 0.208 seconds with exit status 0 (successful).
+  INFO [a33753e7] Running /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [a33753e7] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git archive master | tar -x -f - -C /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 )
+  INFO [a33753e7] Finished in 0.492 seconds with exit status 0 (successful).
+ DEBUG [6294527a] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6294527a] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/repo; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/repo'" 1>&2; false; fi
+ DEBUG [6294527a] Finished in 0.188 seconds with exit status 0 (successful).
+ DEBUG [f7407c55] Running /usr/bin/env git rev-list --max-count=1 master as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f7407c55] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/repo && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-novogodniepodarki-production-patron.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [f7407c55] 	ed23070c77cf4674d662307509e0e9a28dced7a6
+ DEBUG [f7407c55] Finished in 0.192 seconds with exit status 0 (successful).
+ DEBUG [d5259bc9] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [d5259bc9] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi
+ DEBUG [d5259bc9] Finished in 0.222 seconds with exit status 0 (successful).
+  INFO [0257d72b] Running /usr/bin/env echo "ed23070c77cf4674d662307509e0e9a28dced7a6" >> REVISION as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0257d72b] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "ed23070c77cf4674d662307509e0e9a28dced7a6" >> REVISION )
+  INFO [0257d72b] Finished in 0.212 seconds with exit status 0 (successful).
+  INFO [8859b5cf] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8859b5cf] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public )
+  INFO [8859b5cf] Finished in 0.209 seconds with exit status 0 (successful).
+ DEBUG [7ca69259] Running [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [7ca69259] Command: [ -L /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets ]
+ DEBUG [7ca69259] Finished in 0.237 seconds with exit status 1 (failed).
+ DEBUG [b7742d1c] Running [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets ] as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [b7742d1c] Command: [ -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets ]
+ DEBUG [b7742d1c] Finished in 0.247 seconds with exit status 0 (successful).
+  INFO [3e68c75a] Running /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [3e68c75a] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env rm -rf /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets )
+  INFO [3e68c75a] Finished in 0.214 seconds with exit status 0 (successful).
+  INFO [3f816330] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [3f816330] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/shared/public/assets /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets )
+  INFO [3f816330] Finished in 0.225 seconds with exit status 0 (successful).
+ DEBUG [8623c6d6] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [8623c6d6] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi
+ DEBUG [8623c6d6] Finished in 0.212 seconds with exit status 0 (successful).
+ DEBUG [ae0e3e81] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle check --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [ae0e3e81] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle check --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle )
+ DEBUG [ae0e3e81] 	[33mWarning: the running version of Bundler is older than the version that created the lockfile. We suggest you upgrade to the latest version of Bundler by running `gem install bundler`.
+[0m
+ DEBUG [ae0e3e81] 	[31mThe following gems are missing[0m
+[31m * debug_inspector (0.0.2)[0m
+[31m * binding_of_caller (0.7.2)[0m
+[31m * byebug (9.0.6)[0m
+ DEBUG [ae0e3e81] 	[31m * mysql2 (0.3.21)[0m
+ DEBUG [ae0e3e81] 	[31m * spring (2.0.0)[0m
+ DEBUG [ae0e3e81] 	[31m * web-console (2.3.0)[0m
+ DEBUG [ae0e3e81] 	[33mInstall missing gems with `bundle install`[0m
+ DEBUG [ae0e3e81] Finished in 1.183 seconds with exit status 1 (failed).
+  INFO [99b546ff] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [99b546ff] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle install --path /home/hosting_patreewigor4/projects/novogodniepodarki/shared/bundle --without development test --deployment --quiet )
+  INFO [99b546ff] Finished in 13.466 seconds with exit status 0 (successful).
+ DEBUG [be2d3fd6] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [be2d3fd6] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi
+ DEBUG [be2d3fd6] Finished in 1.079 seconds with exit status 0 (successful).
+  INFO [02ab733d] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle exec rake assets:precompile as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [02ab733d] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" RAILS_ENV="production" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle exec rake assets:precompile )
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.093548 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/Detsky-prazdnik-7c1522515ca3bdff344dcf65ee46c1d2ab6148a03def98ff133d4f01da707c45.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.099007 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/LOGO2-4b737d55f0a25a3b88b46412ad88b761785c675d0f497f15367c3e09d116b8a7.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.104993 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/akciya-de71c30a65aa3a879ea45d110f3868d21baa00bf1e07a9723d25bc23d7fd02ec.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.108916 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/botmen-f754a4caf780987975a9cbbba785db756571fc1b24833221e610da93dec60848.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.112570 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/catalog-56d11b06040a0ec7cd92c959d8c089bc3dcb84954ad577ac1f4251951dd3c3bc.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.115899 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/catbg-e4d6318a1d79f508a774b1a1023baef1e01159d8d3126323f5f4da55210fec56.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.119159 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/cirk-1b9bd0c1ffcd82081c8d2b7ab72c1a26ffb319588ac4caad0dbf0610b5b3e981.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.122363 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/cvet-ovechki-4431b174873703cb2dc413fd41837a36c092e34d1caff0fdb9f30b0a5340370c.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.125538 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ded-moroz-e50df9088b3faff17edad9c07efab2c944b02d6757f1f4d215daa9b62cf31901.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.128657 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ded-f476f609f8e745f1c01c830718c049bba720c6215307e353c638f4f7bfde7044.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.131655 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/dostavka-0866169e0ba7750ab18440dc6eeb47863daea8d7f3eb4d7d213e2a665972813c.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.134869 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/druzya-c3711f7bf1a5f4e2371466320abd2744276aa25127b6e755ceaf5535ca3ae57a.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.138118 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/elka-4dbf64efe65c31f636428f125d6a562fbcd1f648ecc56105ade41fbb597c4795.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.140917 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/facebook-38c25975669f4298d4f18fcbc1201cb363f43d37424c29bbae000d6b85e9c656.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.143838 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/fbg-4eee8b6cd54f0120ff5f76c99c885554911cd3c086d49b14d37e6c6105b3db01.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.146650 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ftop-8141ed0bfe8b448f6c4b518c2b030eae85e00ee64e4d2812851b621841b46614.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.149601 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/full-d2af9afe0417da25369c1f5c28c6640ddbaa37ba83ed0c807b7c9acaaec81815.gif
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.152568 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gplus-32-1eea6ab33ec870bc824df8fb4c993679ea65c5dfa61a28e6ae67b3c48fb8ceed.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.155414 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/home-a89071a9b5b7a5ccb4dcf78ff63c9f536a1b4091e966a1e96f471e993a545cd0.gif
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.158545 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ico1-2f1f0fbdf8b96c4b04c1464da393498099bef00c50bdb22b9d7a1f5ce17a4620.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.161695 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ico2-819898f7bdbc3eca4deadcb5bdb387fd6af460dca04765d5cf1dc9e495c2b343.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.164866 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ico3-d888f7102fc40435e8a0f001e49133fd166cbe4060848d62b427201784d75112.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.197215 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ico4-87f77ff557107315cf0016362cfdd94e6125c9dede2c6c427f3ea8641a0dd870.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.200972 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/icon1-24fd51e14f8f17b95da882b30fc981054f479f394da92210f9d999ec5369ba06.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.205326 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/icon3-5297e19a78a02f8e032ace24a95a925db5f403f508d3326cd8dc86943af1adb3.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.208670 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/icon4-79987556853666815ad717b22badafb3ea3fb62ca39622dbeda5c6e3ed37664a.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.212023 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/icon5-6063e32350ef2b65b90ea362a53725b8b93718150683bac7b04f3fe8e75c77fe.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.215384 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/igrushki-71ec0079fdbeeb695cfea598acde5735aa7d5e180eb5ad993b187911e50b1488.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.218805 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/img-e73d215211ba693dda96395f608bd6a8d0dbcbcc3a30aa8e9020d9686c9bd943.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.221602 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/instagram-0f62233835a204226940c7a51ec39c152461ac1334b716471645d7aefd3399fe.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.225586 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/karta-6c54d2fca421c045783e853429511d59ebca468e8a99f636975b364d1b7fb221.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.228611 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/konf-c52a21eb1ff5d3ddc8bdb8376b5a2217cd5ce07b227b1d7e9f5a83f6ec80bff8.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.231679 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/krasivy-dom-3f21a6ad3a33b8ed584e06daddcca49729dc7ceea2e36242ca37b855d37198d6.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.234785 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/larchik-ea36c68b6dfc4972218a9a43ea9b399968628de6b40871265afd445bfe86ff61.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.238061 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/li-390bac7bc9b2f461d66113362ccf1c8a5f7a1ec10c1767404ab6b10098b412a7.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.240848 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/life-c305257336b93797f01f729ffa40532e10d65a08237996b7578a239a4d97c79b.gif
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.243761 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/line-3536b7dc1b2eaa302583e9ba8198b3ef69a226d40799e3e00405ca02ac18d683.gif
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.246636 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/line-a1f31e592234e8db54ad0445e79adad5dd15b60ce92bcb930e4f98e00e11c976.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.249507 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/logo-f6553abf7730eeb3732257fdb559493c7a90e6b27fcc0d612640e1ebf70611c0.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.253971 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/logo_old-ac39fa3cb5627e8a8870887a75f34ec47ae358faecc11f07c19e8800e38ca99a.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.257338 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/magic-box-8561a74add1d626e3ab465aa7ff8c469a9c9269ce428c5ac2664179e06844c6b.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.260416 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/menbg-688122e0e0aab72430b06b7eb9cceb5252a4524e20e64cbb139aed9a9406eda0.gif
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.263545 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/menu-b2518b6848287844f3e375f27517630d83366d074858df2017d637697f404c16.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.266747 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/menu_old-ea39e72b08ae89e1a0ac58bbcb7e6df94d3be23eccf6f6d9e89cec4f63901b82.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.269786 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/menu_old2-7300dbb1e840f20f40bd21fc7dc220a669ee960c045132cc1f463388cc270028.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.273046 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/meshok-5f484c4ac6c3ae5e816b0d3be68e40e7177b49d4e90b48dab8b875aebee5670f.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.276015 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/mts-933eb58f3df5a1374986c04d46910471e2b1a9f0e987f3a8d6c3d03a6b4aecf6.gif
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.279352 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/nov-skazka2-e2a7b49f31291cfe3821692e696981c22f34f3053e09120416fa9e1851bd187b.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.282751 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/novskazka-883d6895ba8633fa2617b1766e4c28b3c47e9c889e00ef5808086bc10e1fee07.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.285834 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/ovechka2-be5fdee9ad6a30d2fd9600138162929983134544763f66ba83ec4f42bc9bd269.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.289253 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/paket-c804c548b84da8bb14373806455f782a1697c473023797e8185ebf661bbdd4e7.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.292379 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/pozdravliayu-f6c980c938d7b37d1d94f139baf288209418a4c635c28737a6ef05252366de6d.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.296033 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/rosh-5ff1c621c8a1509dff7e122b49fa86e1841731b5b167f8a05a18383df28ad540.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.299189 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/sakvoyazh-ed140ee1da8f1ddfea43e7a4d071b0209bb86d59550df7d1f4619662eb3a3019.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.302352 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/serpantinka-d9a050b2459af2f851f7de5368ce1187606b64253987d17d569eec4ea9a6e19d.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.312144 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/shoko-2de3d2b1c3b7a82e9958b04cf27673a32d062669968636cdee2fa5bfe94c837d.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.324283 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/shoko-54a0cc9e5bb0065c0cf1fed4bc34c70320a0dda4222263f24ea9841a6f671334.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.329153 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/shoko_old-4d85415c31cb074434418695dd6992dba4ca65c666a932318742bcd4b65860ed.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.333179 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/shoko_old2-6bea45c4cee22af532535c65c151a9b0929dc652487823bbdf3d6ebf79743a74.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.339390 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/shoko_old3-3419a7b68270ddf9909e702f87142ab3a2943f9eab2acddb91f4342055b8957d.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.346404 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/shoko_old4-5562b17bfcdaa673ae5bd0e741849a81fb4983b4f32a6299877309c6b7e51273.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.349971 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/skidka10-ba24d1ba78169674bf44095c09edcab9bf75cb37aeaabe195f561980a192bfb3.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.354653 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/slidekrugi-8fdcf80b0a35b6063385a5f0aebf37e72c4e017e504f465a82836b34ffbabbec.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.358775 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/snegovik-fb2a43763968a41fff35d7f38021011bf0b38a4f2ac4320e5abaee05fe8657f9.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.362712 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/teatr-427af9ae509c89d7b53db2d8ac85d84b9b6da7f5f69279a0b42305cc57448d4b.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.366571 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/topmen-c10692c1536bc6be27ef107830b2dc5d03453dd2b2b712a844c398b01735824a.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.369544 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/tuba-belorusskaya-c11a77a764e2ce55238714390062b1f2a40780cb46af69e6c2ab18fb38029181.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.372512 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/tuba-koni-8235c118d4c074be67cc0b93d0b48be54fbfc06c28c869b6dd0b378baf5cf0ad.jpg
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.375384 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/twitter-22dc4598f2740caf3a193a9d1830a8c64426419892756e8681015e7b64a76c1e.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.378295 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/vel-0e43e8809596dc8939a1313e22915217373cac882631ce970c1995e07ad50fd2.gif
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.381049 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/vel-e55c7c09cf193f246a621aa2d1229acbd2354558f97db6ad0d70ce4c7effd19d.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:12.383895 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/vk-3c9133fce85ca6d150542812d207ee4b8c80ae320b8e20a6bd7c084704956ba0.png
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.119224 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/application-123fc6d131f60ca936b4607a779a55ad39105250382aa0e9a3a6dda66c792bc3.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.119524 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/application-123fc6d131f60ca936b4607a779a55ad39105250382aa0e9a3a6dda66c792bc3.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.139017 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.142586 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.154392 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies_products-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.154575 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies_products-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.197395 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/base/base-119913463636375aab5ae457bf9d033e497ca046ae98ee4a79ecf514e98f4328.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.197595 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/base/base-119913463636375aab5ae457bf9d033e497ca046ae98ee4a79ecf514e98f4328.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.282487 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/base-d859d69fc9c5ccb2140a0444d8ad99dabfd214e1bc708b40e2c447b42ba0ad34.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.282725 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/base-d859d69fc9c5ccb2140a0444d8ad99dabfd214e1bc708b40e2c447b42ba0ad34.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.293406 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/bound-ee6be3f297e1896c55f1e693d4385ddf9afc7d0e26e1c0def232323fcb0982fa.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.293625 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/bound-ee6be3f297e1896c55f1e693d4385ddf9afc7d0e26e1c0def232323fcb0982fa.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.306783 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/circle-e646fbc1f5b57eb4c2fc3d32f8d20480886a48398e2ee5c48bb36cfe0762cea2.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.306985 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/circle-e646fbc1f5b57eb4c2fc3d32f8d20480886a48398e2ee5c48bb36cfe0762cea2.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.317129 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/clusterer-1f7f9ce1f0b907947e88b02b93a652cafccb991519c6301d77ef7fcaaa49dc83.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.317384 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/clusterer-1f7f9ce1f0b907947e88b02b93a652cafccb991519c6301d77ef7fcaaa49dc83.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.332567 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/kml-a6305f7a8c4e3d17016039bf4543f7119c66208f261ebd2699470c68e7128098.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.332794 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/kml-a6305f7a8c4e3d17016039bf4543f7119c66208f261ebd2699470c68e7128098.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.353973 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/map-c5842aaf64cd69d532e2eb5cb918e86992b0ec23c1e1fb8f01108fb543404ea2.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.354198 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/map-c5842aaf64cd69d532e2eb5cb918e86992b0ec23c1e1fb8f01108fb543404ea2.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.396774 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/marker-916fa8be81afcbade031a9ca6acaa514038d4c65c3899b593a4ef84f60dccf49.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.396974 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/marker-916fa8be81afcbade031a9ca6acaa514038d4c65c3899b593a4ef84f60dccf49.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.409281 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/polygon-6175745c5679772f76dcfbbe035bad7cdf7cbe4953b1a10c1c1287b51596f4fd.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.409470 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/polygon-6175745c5679772f76dcfbbe035bad7cdf7cbe4953b1a10c1c1287b51596f4fd.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.424888 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/polyline-8b141dbef4725382041c0aa5a75ae567e4d9eeeb207e5d025c2cc7ca568c9661.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.425058 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/builders/polyline-8b141dbef4725382041c0aa5a75ae567e4d9eeeb207e5d025c2cc7ca568c9661.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.436053 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/bound-866d8ee9abe59e9700625c57a42ef403474a5ceb17145c695c18a36c9911277e.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.436202 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/bound-866d8ee9abe59e9700625c57a42ef403474a5ceb17145c695c18a36c9911277e.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.446632 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/circle-391261b224e3b9bfa62896802688d0ab43caec6874ec307486461d9eb6e06b5f.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.446797 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/circle-391261b224e3b9bfa62896802688d0ab43caec6874ec307486461d9eb6e06b5f.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.455812 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/clusterer-6d8888d57c207010756c41d1fa90302a52b4d1f928ba204a55d842b94144aee6.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.455964 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/clusterer-6d8888d57c207010756c41d1fa90302a52b4d1f928ba204a55d842b94144aee6.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.463620 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/common-3c7cd0b9dcc1df69c20f5cf0c37c43b29718d5301590d472bcb536515764e332.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.463768 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/common-3c7cd0b9dcc1df69c20f5cf0c37c43b29718d5301590d472bcb536515764e332.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.473077 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/kml-6ed20dda9544979cff9168cd9eabe133e2a84f3480c233f3d800b81fc276af11.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.473227 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/kml-6ed20dda9544979cff9168cd9eabe133e2a84f3480c233f3d800b81fc276af11.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.483901 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/map-879fcfc7f41217bfbdb9c0bce73deecd1f63396ad6232186ff5bf784b63133c3.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.484052 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/map-879fcfc7f41217bfbdb9c0bce73deecd1f63396ad6232186ff5bf784b63133c3.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.492703 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/marker-87ed1927eb8b0563e9e157be46bf9455e3f58244d7fca9dbbfcae35a438e8bfb.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.493490 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/marker-87ed1927eb8b0563e9e157be46bf9455e3f58244d7fca9dbbfcae35a438e8bfb.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.518362 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/polygon-c357c21ec334080043a160ae517ed466692924b196715c24b5fb8753c7552053.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.518564 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/polygon-c357c21ec334080043a160ae517ed466692924b196715c24b5fb8753c7552053.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.538689 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/polyline-57ab7c15a96799b506dc57e6e9e7ebd669917e37a5746fe4d63e4748d02a5808.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.539201 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/objects/polyline-57ab7c15a96799b506dc57e6e9e7ebd669917e37a5746fe4d63e4748d02a5808.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.562138 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/primitives-1a12aa5b49cb0299d880c98959526d80b5cd15d1f9e799adb770d22736fb115a.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.562321 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google/primitives-1a12aa5b49cb0299d880c98959526d80b5cd15d1f9e799adb770d22736fb115a.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.848124 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google-6e09f8454500bade2a5edbe870915d0268fe7a6640fb66d63a27eafa0266a0e1.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.848305 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/google-6e09f8454500bade2a5edbe870915d0268fe7a6640fb66d63a27eafa0266a0e1.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.859328 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/base_builder-ba163e42a0f836ba56c8979e1f5ea26a29b5b607b4f457effdf58d8ee258ed54.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.859503 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/base_builder-ba163e42a0f836ba56c8979e1f5ea26a29b5b607b4f457effdf58d8ee258ed54.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.866872 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/builder-93377d04a3c42376939f25623925c019a418599200ab2107457abbc6f90a7946.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.867032 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/builder-93377d04a3c42376939f25623925c019a418599200ab2107457abbc6f90a7946.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.919569 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/handler-e37068aef5ad834c9c9b04bd28132981970a69e4b87b26238bc187ea928bf95a.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.919777 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/handler-e37068aef5ad834c9c9b04bd28132981970a69e4b87b26238bc187ea928bf95a.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.927533 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/null_clusterer-eaab86ceef18584826a43e6f6120b0950ceb104d5d5a00eb4bf4769819e26f9a.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.927683 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/gmaps/objects/null_clusterer-eaab86ceef18584826a43e6f6120b0950ceb104d5d5a00eb4bf4769819e26f9a.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.932172 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/locations-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.932318 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/locations-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.937116 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/packings-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.937253 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/packings-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.943275 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/products-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.943422 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/products-f78f0f583e152fa235ca51f99bab70d1aeb59675de57c78bcef18b5a2e8a5a5f.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.951513 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.951690 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.957770 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies_products-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.957922 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/candies_products-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.992827 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/flexslider-490b98a7d2199cc17dfc40c00b429dbddde4bf9a90e48fb8939a4804d5ca44d4.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:19.993051 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/flexslider-490b98a7d2199cc17dfc40c00b429dbddde4bf9a90e48fb8939a4804d5ca44d4.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.024515 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jcart-245fc7f831618f743b4d73a749b0398ee128a68f3c6f57c2d9db62b4a5591d18.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.024662 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jcart-245fc7f831618f743b4d73a749b0398ee128a68f3c6f57c2d9db62b4a5591d18.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.030973 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/locations-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.031118 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/locations-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.037101 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/packings-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.037260 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/packings-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.048209 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/scaffolds-0723cb9a2dd5a514d954f70e0fe0b89f6f9f1ae3a375c182f43b5f2b57e9c869.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.048356 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/scaffolds-0723cb9a2dd5a514d954f70e0fe0b89f6f9f1ae3a375c182f43b5f2b57e9c869.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.183178 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/style-59151e1fee3e2aaca27e992b416bb2e0cb4e110f2241e6c5f0533d79c4ae7823.css
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:20.183435 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/style-59151e1fee3e2aaca27e992b416bb2e0cb4e110f2241e6c5f0533d79c4ae7823.css.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:23.676680 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery-29ddc18b0c2ffdc0ae50d2c8ad48028de22059df13aaaba229f68d25579e60eb.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:23.676896 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery-29ddc18b0c2ffdc0ae50d2c8ad48028de22059df13aaaba229f68d25579e60eb.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:26.657641 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery.min-fb5fbfae94a088abe77211ce91411c0e2f9b954e41e5b9e08f8e3a821cf1f4dc.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:26.657860 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery.min-fb5fbfae94a088abe77211ce91411c0e2f9b954e41e5b9e08f8e3a821cf1f4dc.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:30.200412 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery2-d515ff59fc249203c2690b7be104991712fb1eeeb914deffc4e3dbea32e21a71.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:30.200639 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery2-d515ff59fc249203c2690b7be104991712fb1eeeb914deffc4e3dbea32e21a71.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:32.705759 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery2.min-8ea880f40514e4964043e7ec514f12cfaca52d7ca5caead0b7bc7a959dd98528.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:32.706007 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery2.min-8ea880f40514e4964043e7ec514f12cfaca52d7ca5caead0b7bc7a959dd98528.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:35.779818 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery3-2606fa59b05ae59f40b0e2ac110b19a206b1c94e0c7f1c9b3e743ce88880ecec.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:35.780041 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery3-2606fa59b05ae59f40b0e2ac110b19a206b1c94e0c7f1c9b3e743ce88880ecec.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:38.745504 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery3.min-08273d8f049627097a11f1790164bed1fb7b8bf4741daa5c698d1e1028cfe96d.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:38.745733 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery3.min-08273d8f049627097a11f1790164bed1fb7b8bf4741daa5c698d1e1028cfe96d.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:38.934908 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery_ujs-e059bd52d14d52e36650ec69412ab3118f79d9745c1403e19294742fe068357f.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:38.935167 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/jquery_ujs-e059bd52d14d52e36650ec69412ab3118f79d9745c1403e19294742fe068357f.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:45.143892 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/coffee-script-440bfdd967bb646587f233e34d74fee8b703b26654ab4a880f0ba5dec2fdf899.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:45.144137 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/coffee-script-440bfdd967bb646587f233e34d74fee8b703b26654ab4a880f0ba5dec2fdf899.js.gz
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:45.796416 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/turbolinks-6f2421f9e0bf8f1c9e7a583efd9d7a1a08ea98accde4d4f4b23a7dd3f30478ad.js
+ DEBUG [02ab733d] 	I, [2017-09-17T12:18:45.796615 #25219]  INFO -- : Writing /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/turbolinks-6f2421f9e0bf8f1c9e7a583efd9d7a1a08ea98accde4d4f4b23a7dd3f30478ad.js.gz
+  INFO [02ab733d] Finished in 37.466 seconds with exit status 0 (successful).
+ DEBUG [dca29939] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [dca29939] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi
+ DEBUG [dca29939] Finished in 0.227 seconds with exit status 0 (successful).
+  INFO [920459ad] Running /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/assets_manifest_backup as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [920459ad] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mkdir -p /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/assets_manifest_backup )
+  INFO [920459ad] Finished in 0.251 seconds with exit status 0 (successful).
+ DEBUG [0f9f6096] Running /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest* as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0f9f6096] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest* )
+ DEBUG [0f9f6096] 	/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest-cb540f9a1a81e693b4301a69793ff72c.json
+ DEBUG [0f9f6096] Finished in 0.223 seconds with exit status 0 (successful).
+ DEBUG [781975a0] Running /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest* as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [781975a0] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest* )
+ DEBUG [781975a0] 	/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest-cb540f9a1a81e693b4301a69793ff72c.json
+ DEBUG [781975a0] Finished in 0.225 seconds with exit status 0 (successful).
+  INFO [0b0558f9] Running /usr/bin/env cp /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest-cb540f9a1a81e693b4301a69793ff72c.json /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/assets_manifest_backup as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [0b0558f9] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env cp /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/public/assets/.sprockets-manifest-cb540f9a1a81e693b4301a69793ff72c.json /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747/assets_manifest_backup )
+  INFO [0b0558f9] Finished in 0.218 seconds with exit status 0 (successful).
+  INFO [deploy:migrate] Run `rake db:migrate`
+ DEBUG [c79ab7a6] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [c79ab7a6] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747'" 1>&2; false; fi
+ DEBUG [c79ab7a6] Finished in 0.205 seconds with exit status 0 (successful).
+  INFO [6999e277] Running /usr/local/rvm/bin/rvm 2.1.5 do bundle exec rake db:migrate as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [6999e277] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" RAILS_ENV="production" ; /usr/local/rvm/bin/rvm 2.1.5 do bundle exec rake db:migrate )
+ DEBUG [6999e277] 	== 20150717085624 CreateProducts: migrating ===================================
+ DEBUG [6999e277] 	-- create_table(:products)
+ DEBUG [6999e277] 	   -> 0.0205s
+== 20150717085624 CreateProducts: migrated (0.0206s) ==========================
+
+ DEBUG [6999e277] 	== 20150717085718 AddAttachmentImageToProducts: migrating =====================
+ DEBUG [6999e277] 	-- change_table(:products)
+ DEBUG [6999e277] 	   -> 0.0456s
+== 20150717085718 AddAttachmentImageToProducts: migrated (0.0457s) ============
+
+ DEBUG [6999e277] 	== 20150721095104 AddFieldTypesInTableProducts: migrating =====================
+ DEBUG [6999e277] 	-- add_column(:products, :types, :string)
+ DEBUG [6999e277] 	   -> 0.0076s
+ DEBUG [6999e277] 	== 20150721095104 AddFieldTypesInTableProducts: migrated (0.0078s) ============
+
+ DEBUG [6999e277] 	== 20150721095951 DeleteFieldTypeInTableProducts: migrating ===================
+ DEBUG [6999e277] 	-- remove_column(:products, :type)
+ DEBUG [6999e277] 	   -> 0.0083s
+ DEBUG [6999e277] 	== 20150721095951 DeleteFieldTypeInTableProducts: migrated (0.0084s) ==========
+
+ DEBUG [6999e277] 	== 20160915194801 CreateCandies: migrating ====================================
+ DEBUG [6999e277] 	-- create_table(:candies)
+ DEBUG [6999e277] 	   -> 0.0063s
+== 20160915194801 CreateCandies: migrated (0.0064s) ===========================
+
+ DEBUG [6999e277] 	== 20160918095919 CreatePackings: migrating ===================================
+ DEBUG [6999e277] 	-- create_table(:packings)
+ DEBUG [6999e277] 	   -> 0.0069s
+ DEBUG [6999e277] 	== 20160918095919 CreatePackings: migrated (0.0070s) ==========================
+
+ DEBUG [6999e277] 	== 20160918100041 ProductsPackings: migrating =================================
+ DEBUG [6999e277] 	-- create_table(:packings_products, {:id=>false})
+ DEBUG [6999e277] 	   -> 0.0059s
+ DEBUG [6999e277] 	== 20160918100041 ProductsPackings: migrated (0.0060s) ========================
+
+ DEBUG [6999e277] 	== 20160922083547 AddAttachmentImageToPackings: migrating =====================
+ DEBUG [6999e277] 	-- change_table(:packings)
+ DEBUG [6999e277] 	   -> 0.0520s
+== 20160922083547 AddAttachmentImageToPackings: migrated (0.0521s) ============
+
+ DEBUG [6999e277] 	== 20160922085039 AddAttachmentImageToCandies: migrating ======================
+ DEBUG [6999e277] 	-- change_table(:candies)
+ DEBUG [6999e277] 	   -> 0.0596s
+== 20160922085039 AddAttachmentImageToCandies: migrated (0.0597s) =============
+
+ DEBUG [6999e277] 	== 20160922085204 AddTableCandysProducts: migrating ===========================
+ DEBUG [6999e277] 	-- create_table(:candies_products)
+ DEBUG [6999e277] 	   -> 0.0067s
+ DEBUG [6999e277] 	== 20160922085204 AddTableCandysProducts: migrated (0.0068s) ==================
+
+ DEBUG [6999e277] 	== 20160923075833 AddColumnCountCandyToTableAssotiation: migrating ============
+ DEBUG [6999e277] 	-- add_column(:candies_products, :count, :integer, {:default=>1})
+ DEBUG [6999e277] 	   -> 0.0136s
+== 20160923075833 AddColumnCountCandyToTableAssotiation: migrated (0.0138s) ===
+
+ DEBUG [6999e277] 	== 20160926141312 AddColumnPriceOnThePackingTable: migrating ==================
+ DEBUG [6999e277] 	-- add_column(:packings, :price, :integer)
+ DEBUG [6999e277] 	   -> 0.0134s
+ DEBUG [6999e277] 	== 20160926141312 AddColumnPriceOnThePackingTable: migrated (0.0134s) =========
+
+ DEBUG [6999e277] 	== 20160928101634 ChangeDataType: migrating ===================================
+ DEBUG [6999e277] 	-- change_table(:products)
+ DEBUG [6999e277] 	   -> 0.0095s
+== 20160928101634 ChangeDataType: migrated (0.0096s) ==========================
+
+ DEBUG [6999e277] 	== 20161105081419 DeviseCreateUsers: migrating ================================
+ DEBUG [6999e277] 	-- create_table(:users)
+ DEBUG [6999e277] 	   -> 0.0065s
+ DEBUG [6999e277] 	-- add_index(:users, :email, {:unique=>true})
+ DEBUG [6999e277] 	   -> 0.0084s
+-- add_index(:users, :reset_password_token, {:unique=>true})
+ DEBUG [6999e277] 	   -> 0.0059s
+ DEBUG [6999e277] 	== 20161105081419 DeviseCreateUsers: migrated (0.0210s) =======================
+
+  INFO [6999e277] Finished in 4.023 seconds with exit status 0 (successful).
+  INFO [f9c997cd] Running /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [f9c997cd] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ln -s /home/hosting_patreewigor4/projects/novogodniepodarki/releases/20170917091747 /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current )
+  INFO [f9c997cd] Finished in 0.288 seconds with exit status 0 (successful).
+  INFO [a90ec046] Running /usr/bin/env mv /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current /home/hosting_patreewigor4/projects/novogodniepodarki as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [a90ec046] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env mv /home/hosting_patreewigor4/projects/novogodniepodarki/releases/current /home/hosting_patreewigor4/projects/novogodniepodarki )
+  INFO [a90ec046] Finished in 0.210 seconds with exit status 0 (successful).
+ DEBUG [bea62f7d] Running /usr/bin/env ls -xtr /home/hosting_patreewigor4/projects/novogodniepodarki/releases as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [bea62f7d] Command: ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env ls -xtr /home/hosting_patreewigor4/projects/novogodniepodarki/releases )
+ DEBUG [bea62f7d] 	initial_release  20170917080451  20170917081507  20170917091747
+ DEBUG [bea62f7d] Finished in 0.208 seconds with exit status 0 (successful).
+ DEBUG [076d03b2] Running if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases'" 1>&2; false; fi as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [076d03b2] Command: if test ! -d /home/hosting_patreewigor4/projects/novogodniepodarki/releases; then echo "Directory does not exist '/home/hosting_patreewigor4/projects/novogodniepodarki/releases'" 1>&2; false; fi
+ DEBUG [076d03b2] Finished in 0.186 seconds with exit status 0 (successful).
+  INFO [cdb59b85] Running /usr/bin/env echo "Branch master (at ed23070c77cf4674d662307509e0e9a28dced7a6) deployed as release 20170917091747 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log as hosting_patreewigor4@calcium.locum.ru
+ DEBUG [cdb59b85] Command: cd /home/hosting_patreewigor4/projects/novogodniepodarki/releases && ( export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/local/rvm/bin" ; /usr/bin/env echo "Branch master (at ed23070c77cf4674d662307509e0e9a28dced7a6) deployed as release 20170917091747 by patron" >> /home/hosting_patreewigor4/projects/novogodniepodarki/revisions.log )
+  INFO [cdb59b85] Finished in 0.182 seconds with exit status 0 (successful).
